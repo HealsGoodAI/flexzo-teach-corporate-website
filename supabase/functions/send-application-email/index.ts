@@ -737,7 +737,7 @@ const CONTACT_TEMPLATE = `<!DOCTYPE html>
     body{margin:0;padding:0;background:#F4F5F7;font-family:'Helvetica Neue',Arial,Helvetica,sans-serif;color:#0a2540;-webkit-font-smoothing:antialiased}
     .wrap{width:100%;padding:32px 0 40px}
     .card{width:92%;max-width:680px;margin:0 auto;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 4px 24px rgba(0,0,0,.08)}
-    .header{background:#063165;padding:22px 32px}
+    .header{background:#2C0947;padding:22px 32px}
     .header img{height:28px;width:auto;display:block}
     .alert-bar{background:#0075FF;padding:10px 32px;color:#fff;font-size:11px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase}
     .content{padding:28px 32px 24px}
