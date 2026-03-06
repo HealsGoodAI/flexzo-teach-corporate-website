@@ -46,7 +46,7 @@ const Hospitals = () => {
           <motion.div initial="hidden" animate="visible" variants={fadeUp} className="max-w-4xl">
             <p className="mb-8 text-sm font-semibold uppercase tracking-[0.3em] text-[#0CE3FF]">{t("NHS Hospitals")}</p>
             <h1 className="text-5xl font-bold leading-[1.08] tracking-tight text-primary-foreground md:text-7xl lg:text-8xl">
-              {t("NHS Trust Staffing &")} <span className="text-[#59029F]">{t("Workforce Platform")}</span>
+              {t("NHS Trust Staffing &")} <span className="text-[#DC44CB]">{t("Workforce Platform")}</span>
             </h1>
             <motion.p initial="hidden" animate="visible" custom={1} variants={fadeUp} className="mt-10 max-w-2xl text-xl leading-relaxed text-primary-foreground/60 md:text-2xl">
               Reduce Agency Spend. Fill Shifts Faster. Stay Fully Compliant.
