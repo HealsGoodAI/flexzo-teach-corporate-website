@@ -455,8 +455,8 @@ const LEAD_TEMPLATE = `<!DOCTYPE html>
       <div class="detail-grid">
         <div class="detail-row"><span class="detail-key">First Name</span><span class="detail-val">{{firstName}}</span></div>
         <div class="detail-row"><span class="detail-key">Last Name</span><span class="detail-val">{{lastName}}</span></div>
-        <div class="detail-row"><span class="detail-key">Email</span><span class="detail-val"><a href="mailto:{{email}}" style="color:#0075FF;text-decoration:none;">{{email}}</a></span></div>
-        <div class="detail-row"><span class="detail-key">Job Link</span><span class="detail-val"><a href="{{jobLink}}" style="color:#0075FF;text-decoration:none;">View Listing</a></span></div>
+         <div class="detail-row"><span class="detail-key">Email</span><span class="detail-val"><a href="mailto:{{email}}" style="color:#59029F;text-decoration:none;">{{email}}</a></span></div>
+        <div class="detail-row"><span class="detail-key">Job Link</span><span class="detail-val"><a href="{{jobLink}}" style="color:#59029F;text-decoration:none;">View Listing</a></span></div>
       </div>
       <div class="divider"></div>
       <p class="section-label">CV / Resume</p>
