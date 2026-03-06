@@ -65,7 +65,7 @@ const Rostering = () => {
             <motion.div initial="hidden" animate="visible" variants={fadeUp}>
               <p className="mb-6 text-sm font-semibold uppercase tracking-[0.25em] text-[#0CE3FF]">{t("Rostering")}</p>
               <h1 className="text-5xl font-bold leading-[1.05] tracking-tight text-primary-foreground md:text-6xl lg:text-7xl">
-                {t("Smarter rostering for")}<br /><span className="text-[#59029F]">{t("safer care")}</span>
+                {t("Smarter rostering for")}<br /><span className="text-[#DC44CB]">{t("safer care")}</span>
               </h1>
               <p className="mt-8 max-w-lg text-lg leading-relaxed text-primary-foreground/60">
                 {t("The only end-to-end roster solution built for multi-professional health and care teams. Fully integrated rostering, absence management, temporary staffing and real-time command — giving you complete control of costs, quality and staff experience.")}
