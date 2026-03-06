@@ -103,7 +103,7 @@ const Amplify = () => {
       <section className="bg-foreground py-28 lg:py-36">
         <div className="mx-auto max-w-7xl px-6">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeUp} className="mb-16">
-            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#0CE3FF]">{t("Capabilities")}</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#DC44CB]">{t("Capabilities")}</p>
             <h2 className="mt-4 text-4xl font-bold tracking-tight text-primary-foreground md:text-5xl">{t("Features")}</h2>
           </motion.div>
           <div className="grid gap-px overflow-hidden rounded-2xl border border-primary-foreground/10 bg-primary-foreground/5 md:grid-cols-2 lg:grid-cols-3">
