@@ -151,7 +151,7 @@ const Team = () => {
               className="max-w-4xl text-4xl font-bold leading-[1.08] tracking-tight text-primary-foreground md:text-6xl lg:text-7xl"
             >
               Industry experts who{" "}
-              <span className="text-[#0075FF]">understand the journey</span>
+              <span className="text-[#59029F]">understand the journey</span>
             </motion.h1>
 
             <motion.p
