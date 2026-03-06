@@ -243,7 +243,7 @@ const Team = () => {
                 viewport={{ once: true }}
                 custom={i}
                 variants={fadeUp}
-                className="group rounded-2xl border border-border bg-background p-6 transition-all hover:border-[#0075FF]/30 hover:shadow-lg hover:shadow-[#0075FF]/5"
+                className="group rounded-2xl border border-border bg-background p-6 transition-all hover:border-[#59029F]/30 hover:shadow-lg hover:shadow-[#59029F]/5"
               >
                 <div className="mb-5 flex flex-col items-center text-center">
                   <div className="h-20 w-20 shrink-0 overflow-hidden rounded-full bg-foreground">
