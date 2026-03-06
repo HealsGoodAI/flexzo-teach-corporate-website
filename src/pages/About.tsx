@@ -31,9 +31,9 @@ const About = () => {
 
       <section className="relative overflow-hidden bg-gradient-to-br from-foreground via-foreground to-[#0a2540] pt-32 pb-20">
         <div className="mx-auto max-w-7xl px-6">
-          <p className="mb-3 text-xs font-semibold uppercase tracking-widest text-[#0CE3FF]">
-            {t("The nation's premium collaborative staff bank")}
-          </p>
+           <p className="mb-3 text-xs font-semibold uppercase tracking-widest text-[#DC44CB]">
+             {t("The nation's premium collaborative staff bank")}
+           </p>
           <h1 className="mb-6 text-4xl font-bold text-primary-foreground md:text-5xl lg:text-6xl">
             {t("About Flexzo")}
           </h1>
