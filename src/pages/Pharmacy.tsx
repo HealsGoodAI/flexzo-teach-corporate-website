@@ -49,7 +49,7 @@ const Pharmacy = () => {
           <motion.div initial="hidden" animate="visible" variants={fadeUp} className="max-w-4xl">
             <p className="mb-8 text-sm font-semibold uppercase tracking-[0.3em] text-[#0CE3FF]">{t("Pharmacy")}</p>
             <h1 className="text-5xl font-bold leading-[1.08] tracking-tight text-primary-foreground md:text-7xl lg:text-8xl">
-              {t("Smarter Locum Cover for")} <span className="text-[#59029F]">{t("UK Pharmacies")}</span>
+              {t("Smarter Locum Cover for")} <span className="text-[#DC44CB]">{t("UK Pharmacies")}</span>
             </h1>
             <motion.p initial="hidden" animate="visible" custom={1} variants={fadeUp} className="mt-10 max-w-2xl text-xl leading-relaxed text-primary-foreground/60 md:text-2xl">
               {t("Flexzo.ai is an AI-powered pharmacy staffing platform designed to help UK pharmacies reduce staffing gaps, improve workforce planning, and cut reliance on expensive agencies.")}
