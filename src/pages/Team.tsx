@@ -177,12 +177,12 @@ const Team = () => {
             variants={fadeUp}
             className="mb-16"
           >
-            <p className="mb-4 text-xs font-semibold uppercase tracking-[0.3em] text-[#0075FF]">
+            <p className="mb-4 text-xs font-semibold uppercase tracking-[0.3em] text-[#59029F]">
               What Drives Us
             </p>
             <h2 className="max-w-2xl text-3xl font-bold tracking-tight text-foreground md:text-5xl">
               Our values shape every{" "}
-              <span className="text-[#0075FF]">product we build</span>
+              <span className="text-[#59029F]">product we build</span>
             </h2>
           </motion.div>
 
