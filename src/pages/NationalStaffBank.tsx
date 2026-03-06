@@ -116,7 +116,7 @@ const NationalStaffBank = () => {
             <motion.div initial="hidden" animate="visible" variants={fadeUp}>
               <p className="mb-6 text-sm font-semibold uppercase tracking-[0.25em] text-[#0CE3FF]">{t("National Staff Bank")}</p>
               <h1 className="text-5xl font-bold leading-[1.05] tracking-tight text-primary-foreground md:text-6xl lg:text-7xl">
-                {t("Make hiring frictionless for")}{" "}<span className="text-[#59029F]">{t("clinical candidates")}</span>
+                {t("Make hiring frictionless for")}{" "}<span className="text-[#DC44CB]">{t("clinical candidates")}</span>
               </h1>
               <p className="mt-8 max-w-lg text-lg leading-relaxed text-primary-foreground/60">
                 {t("Flexzo National Staff Bank transforms isolated local pools into a governed national resource — increasing resilience, lowering regional agency reliance and accelerating cross-site cover across the entire healthcare system.")}
