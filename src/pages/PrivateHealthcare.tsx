@@ -91,7 +91,7 @@ const PrivateHealthcare = () => {
           <motion.div initial="hidden" animate="visible" variants={fadeUp} className="max-w-4xl">
             <p className="mb-8 text-sm font-semibold uppercase tracking-[0.3em] text-[#0CE3FF]">Private Healthcare</p>
             <h1 className="text-5xl font-bold leading-[1.08] tracking-tight text-primary-foreground md:text-7xl lg:text-8xl">
-              Private{" "}<span className="text-[#59029F]">Hospitals</span>
+              Private{" "}<span className="text-[#DC44CB]">Hospitals</span>
             </h1>
             <motion.p initial="hidden" animate="visible" custom={1} variants={fadeUp} className="mt-10 max-w-2xl text-xl leading-relaxed text-primary-foreground/60 md:text-2xl">
               Reduce Agency Spend. Improve Staffing Control. Keep Services Moving.
