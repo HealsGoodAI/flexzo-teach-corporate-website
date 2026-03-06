@@ -647,7 +647,7 @@ const APPLICANT_US_TEMPLATE = `<!DOCTYPE html>
       <div class="divider"></div>
       <div class="cta-section">
         <a href="{{jobLink}}" class="cta-btn">View Job Listing</a>
-        <p class="cta-note">Questions? Email us at <a href="mailto:applications@flexzo.ai" style="color:#0075FF;">applications@flexzo.ai</a></p>
+        <p class="cta-note">Questions? Email us at <a href="mailto:applications@flexzo.ai" style="color:#59029F;">applications@flexzo.ai</a></p>
       </div>
     </div>
     <div class="footer">
