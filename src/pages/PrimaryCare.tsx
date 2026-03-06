@@ -182,7 +182,7 @@ const PrimaryCare = () => {
             variants={fadeUp}
             className="mb-16 max-w-3xl"
           >
-            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#0CE3FF]">
+             <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#DC44CB]">
               Workforce Management, Simplified
             </p>
             <h2 className="mt-4 text-4xl font-bold tracking-tight text-primary-foreground md:text-5xl">

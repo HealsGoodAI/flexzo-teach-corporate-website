@@ -89,7 +89,7 @@ const Hospitals = () => {
         <div className="mx-auto max-w-7xl px-6">
           <div className="grid gap-16 lg:grid-cols-2">
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeUp}>
-              <p className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-[#0CE3FF]">Workforce Challenges</p>
+              <p className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-[#DC44CB]">Workforce Challenges</p>
               <h2 className="text-3xl font-bold leading-tight tracking-tight text-primary-foreground md:text-5xl">
                 {t("Solve NHS Staffing Shortages")} <span className="text-[#DC44CB]">{t("Faster")}</span>
               </h2>
