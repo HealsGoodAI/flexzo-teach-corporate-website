@@ -140,7 +140,7 @@ const SocialCare = () => {
               <ul className="space-y-5">
                 {whyChoose.map((item, i) => (
                   <motion.li key={i} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={i + 2} variants={fadeUp} className="flex items-start gap-4">
-                    <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-[#59029F]" />
+                    <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-[#DC44CB]" />
                     <span className="text-lg text-primary-foreground">{t(item)}</span>
                   </motion.li>
                 ))}

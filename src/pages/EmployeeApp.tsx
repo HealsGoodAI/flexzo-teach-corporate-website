@@ -402,7 +402,7 @@ const EmployeeApp = () => {
             className="text-4xl font-bold leading-tight text-primary-foreground md:text-5xl lg:text-6xl"
           >
             {t("Work when you want:")}{" "}
-            <span className="text-[#59029F]">{t("shifts, pay & documents in one app")}</span>.
+            <span className="text-[#DC44CB]">{t("shifts, pay & documents in one app")}</span>.
           </motion.p>
         </div>
       </section>
