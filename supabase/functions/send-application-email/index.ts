@@ -770,7 +770,7 @@ const CONTACT_TEMPLATE = `<!DOCTYPE html>
       <p class="section-label">Contact Details</p>
       <div class="detail-grid">
         <div class="detail-row"><span class="detail-key">Name</span><span class="detail-val">{{name}}</span></div>
-        <div class="detail-row"><span class="detail-key">Email</span><span class="detail-val"><a href="mailto:{{email}}" style="color:#0075FF;text-decoration:none;">{{email}}</a></span></div>
+        <div class="detail-row"><span class="detail-key">Email</span><span class="detail-val"><a href="mailto:{{email}}" style="color:#59029F;text-decoration:none;">{{email}}</a></span></div>
         <div class="detail-row"><span class="detail-key">Phone</span><span class="detail-val">{{phone}}</span></div>
         <div class="detail-row"><span class="detail-key">Company</span><span class="detail-val">{{company}}</span></div>
       </div>
