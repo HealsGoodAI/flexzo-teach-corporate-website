@@ -420,7 +420,7 @@ const LEAD_TEMPLATE = `<!DOCTYPE html>
     .header img{height:28px;width:auto;display:block}
     .alert-bar{background:#59029F;padding:10px 32px;color:#fff;font-size:11px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase}
     .content{padding:28px 32px 24px}
-    .heading{font-size:20px;font-weight:700;color:#063165;margin:0 0 6px;line-height:1.3}
+    .heading{font-size:20px;font-weight:700;color:#2C0947;margin:0 0 6px;line-height:1.3}
     .sub{font-size:13px;color:#6B7280;margin:0 0 24px}
     .divider{height:1px;background:#E5E7EB;margin:20px 0}
     .section-label{font-size:10px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#9CA3AF;margin:0 0 10px}
