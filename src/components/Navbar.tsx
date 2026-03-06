@@ -130,7 +130,7 @@ const Navbar = ({ transparent = false }: NavbarProps) => {
                 return (
                   <div key={item} className="relative flex items-center">
                     {isNavItemActive(item) && (
-                      <span className="absolute top-0 left-0 right-0 h-[3px] bg-[#0075FF]" />
+                      <span className="absolute top-0 left-0 right-0 h-[3px] bg-[#59029F]" />
                     )}
                     <button
                       onClick={() => setOpenDropdown(isOpen ? null : item)}
@@ -171,7 +171,7 @@ const Navbar = ({ transparent = false }: NavbarProps) => {
                   }`}
                 >
                   {isNavItemActive(item) && (
-                    <span className="absolute top-0 left-0 right-0 h-[3px] bg-[#0075FF]" />
+                    <span className="absolute top-0 left-0 right-0 h-[3px] bg-[#59029F]" />
                   )}
                   {item}
                 </a>
@@ -182,8 +182,8 @@ const Navbar = ({ transparent = false }: NavbarProps) => {
                 href={resolveHref("/book-demo")}
                 className={`rounded-md px-6 py-2.5 text-sm font-medium transition-all ${
                   isTransparent
-                    ? "bg-white/10 text-white border border-white/20 hover:bg-[#0075FF] hover:border-[#0075FF]"
-                    : "bg-primary text-primary-foreground hover:bg-[#0075FF] hover:text-white"
+                    ? "bg-white/10 text-white border border-white/20 hover:bg-[#59029F] hover:border-[#59029F]"
+                    : "bg-primary text-primary-foreground hover:bg-[#59029F] hover:text-white"
                 }`}
               >
                 Book a demo
@@ -308,7 +308,7 @@ const Navbar = ({ transparent = false }: NavbarProps) => {
                       >
                         <button
                           onClick={() => setMobileExpanded(isExpanded ? null : item)}
-                          className="flex w-full items-center justify-between py-3 text-3xl font-bold text-primary-foreground transition-colors hover:text-[#0075FF]"
+                          className="flex w-full items-center justify-between py-3 text-3xl font-bold text-primary-foreground transition-colors hover:text-[#59029F]"
                         >
                           {item}
                           <ChevronDown
@@ -333,7 +333,7 @@ const Navbar = ({ transparent = false }: NavbarProps) => {
                                     initial={{ opacity: 0, x: 20 }}
                                     animate={{ opacity: 1, x: 0 }}
                                     transition={{ delay: j * 0.04, duration: 0.3 }}
-                                    className="py-2 text-lg text-primary-foreground/50 transition-colors hover:text-[#0075FF]"
+                                    className="py-2 text-lg text-primary-foreground/50 transition-colors hover:text-[#59029F]"
                                     onClick={() => setMobileOpen(false)}
                                   >
                                     {t(link.label)}
@@ -353,7 +353,7 @@ const Navbar = ({ transparent = false }: NavbarProps) => {
                       initial={{ opacity: 0, x: 40 }}
                       animate={{ opacity: 1, x: 0 }}
                       transition={{ delay: 0.15 + i * 0.06, duration: 0.4, ease: [0.25, 0.46, 0.45, 0.94] }}
-                      className="py-3 text-3xl font-bold text-primary-foreground transition-colors hover:text-[#0075FF]"
+                      className="py-3 text-3xl font-bold text-primary-foreground transition-colors hover:text-[#59029F]"
                       onClick={() => setMobileOpen(false)}
                     >
                       {item}
@@ -367,7 +367,7 @@ const Navbar = ({ transparent = false }: NavbarProps) => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5, duration: 0.4 }}
-                className="mt-8 inline-block rounded-md bg-[#0075FF] px-8 py-4 text-center text-sm font-semibold text-white transition-colors hover:bg-[#0060D0]"
+                className="mt-8 inline-block rounded-md bg-[#59029F] px-8 py-4 text-center text-sm font-semibold text-white transition-colors hover:bg-[#4a0285]"
                 onClick={() => setMobileOpen(false)}
               >
                 Book a demo

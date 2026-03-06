@@ -35,7 +35,7 @@ const HeroSection = () => {
           <br />
           {t("Workforce System")}
           <br />
-          <span className="text-[#0075FF]">
+          <span className="text-[#59029F]">
             {t("for")}{" "}
             <AnimatePresence mode="wait">
               <motion.span
@@ -70,13 +70,13 @@ const HeroSection = () => {
         >
           <RegionLink
             href="/book-demo"
-            className="rounded-md bg-primary px-8 py-3.5 font-display text-sm font-semibold text-primary-foreground transition-all hover:bg-[#0075FF] hover:text-white"
+            className="rounded-md bg-primary px-8 py-3.5 font-display text-sm font-semibold text-primary-foreground transition-all hover:bg-[#59029F] hover:text-white"
           >
             {t("Book a Demo")}
           </RegionLink>
           <a
             href="#features"
-            className="rounded-md border border-border bg-background/80 backdrop-blur-sm px-8 py-3.5 font-display text-sm font-semibold text-foreground transition-all hover:bg-[#0075FF] hover:text-white hover:border-[#0075FF]"
+            className="rounded-md border border-border bg-background/80 backdrop-blur-sm px-8 py-3.5 font-display text-sm font-semibold text-foreground transition-all hover:bg-[#59029F] hover:text-white hover:border-[#59029F]"
           >
             {t("Learn More")}
           </a>
