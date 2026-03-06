@@ -60,7 +60,7 @@ const JobDetail = () => {
             <div className="flex flex-wrap gap-x-6 gap-y-3 text-sm text-muted-foreground">
               {job.location && (
                 <span className="flex items-center gap-1.5">
-                  <MapPin className="h-4 w-4 text-[#0075FF]" /> {job.location}
+                  <MapPin className="h-4 w-4 text-accent" /> {job.location}
                 </span>
               )}
               <span className="flex items-center gap-1.5">
