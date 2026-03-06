@@ -55,7 +55,7 @@ const Amplify = () => {
         <div className="relative z-10 mx-auto w-full max-w-7xl px-6 py-32">
           <div className="grid items-center gap-16 lg:grid-cols-2">
             <motion.div initial="hidden" animate="visible" variants={fadeUp}>
-              <p className="mb-6 text-sm font-semibold uppercase tracking-[0.25em] text-[#0CE3FF]">{t("Amplify")}</p>
+              <p className="mb-6 text-sm font-semibold uppercase tracking-[0.25em] text-[#DC44CB]">{t("Amplify")}</p>
               <h1 className="text-5xl font-bold leading-[1.05] tracking-tight text-primary-foreground md:text-6xl lg:text-7xl">
                 {t("Activate talent,")}<br /><span className="text-[#DC44CB]">{t("amplify reach")}</span>
               </h1>
