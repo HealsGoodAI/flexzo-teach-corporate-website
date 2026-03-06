@@ -128,7 +128,7 @@ const EmployeeApp = () => {
               <h1 className="text-5xl font-bold leading-[1.05] tracking-tight text-primary-foreground md:text-6xl lg:text-7xl">
                 {t("Shifts, pay &")}
                 <br />
-                <span className="text-[#59029F]">{t("docs in one app")}</span>
+                <span className="text-[#DC44CB]">{t("docs in one app")}</span>
               </h1>
               <p className="mt-8 max-w-lg text-lg leading-relaxed text-primary-foreground/60">
                 {t("A mobile-first companion for clinicians and bank staff that simplifies shift discovery, acceptance and credential management while keeping payroll and compliance at your fingertips.")}
