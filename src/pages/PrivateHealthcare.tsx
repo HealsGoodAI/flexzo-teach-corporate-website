@@ -128,7 +128,7 @@ const PrivateHealthcare = () => {
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeUp} className="mb-16 max-w-3xl">
             <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#0CE3FF]">Industry Challenges</p>
             <h2 className="mt-4 text-4xl font-bold tracking-tight text-primary-foreground md:text-5xl">
-              The Challenge Facing{" "}<span className="text-[#59029F]">Private Hospitals</span>
+              The Challenge Facing{" "}<span className="text-[#DC44CB]">Private Hospitals</span>
             </h2>
             <p className="mt-6 text-lg text-primary-foreground/60">Many private providers face the same recurring issues:</p>
           </motion.div>
