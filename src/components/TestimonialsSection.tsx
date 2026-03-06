@@ -39,7 +39,7 @@ const TestimonialCard = ({ quote, name, role }: { quote: string; name: string; r
     <ChatIcon />
     <p className="text-lg leading-relaxed text-foreground">"{quote}"</p>
     <div className="mt-auto">
-      <p className="text-sm font-semibold text-[#0075FF]">{name}</p>
+      <p className="text-sm font-semibold text-[#59029F]">{name}</p>
       <p className="text-xs text-muted-foreground">{role}</p>
     </div>
   </div>
@@ -106,7 +106,7 @@ const TestimonialsSection = () => {
               key={i}
               onClick={() => setPage(i)}
               className={`h-2 rounded-full transition-all duration-300 ${
-                i === page ? "w-6 bg-[#0075FF]" : "w-2 bg-border"
+                i === page ? "w-6 bg-[#59029F]" : "w-2 bg-border"
               }`}
               aria-label={`Go to page ${i + 1}`}
             />

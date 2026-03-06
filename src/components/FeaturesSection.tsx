@@ -49,7 +49,7 @@ const FeaturesSection = () => {
           <h2 className="font-display text-4xl font-bold text-foreground md:text-5xl">
             {t("Flexzo AI puts your team")}
             <br />
-            <span className="text-[#0075FF]">{t("in control")}</span>
+            <span className="text-[#59029F]">{t("in control")}</span>
           </h2>
         </ScrollReveal>
 
