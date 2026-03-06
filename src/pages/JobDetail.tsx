@@ -31,7 +31,7 @@ const JobDetail = () => {
           <div className="text-center">
             <h1 className="mb-4 text-3xl font-bold text-foreground">Job not found</h1>
             <p className="mb-8 text-muted-foreground">The job listing you're looking for doesn't exist or has been removed.</p>
-            <Link to={regionPath("/jobs")} className="inline-flex items-center gap-2 rounded-md bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-all hover:bg-[#0075FF] hover:text-white">
+            <Link to={regionPath("/jobs")} className="inline-flex items-center gap-2 rounded-md bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-all hover:bg-accent hover:text-white">
               <ArrowLeft size={16} /> {t("Back to Jobs")}
             </Link>
           </div>
@@ -49,7 +49,7 @@ const JobDetail = () => {
       <section className="border-b border-border bg-muted pt-32 pb-12">
         <div className="mx-auto max-w-4xl px-6">
           <motion.div initial="hidden" animate="visible" variants={fadeUp}>
-            <Link to={regionPath("/jobs")} className="mb-6 inline-flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-[#0075FF]">
+            <Link to={regionPath("/jobs")} className="mb-6 inline-flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-accent">
               <ArrowLeft size={14} /> {t("Back to all jobs")}
             </Link>
             <h1 className="mb-3 text-3xl font-bold tracking-tight text-foreground md:text-4xl">
@@ -60,24 +60,24 @@ const JobDetail = () => {
             <div className="flex flex-wrap gap-x-6 gap-y-3 text-sm text-muted-foreground">
               {job.location && (
                 <span className="flex items-center gap-1.5">
-                  <MapPin className="h-4 w-4 text-[#0075FF]" /> {job.location}
+                  <MapPin className="h-4 w-4 text-accent" /> {job.location}
                 </span>
               )}
               <span className="flex items-center gap-1.5">
-                <Briefcase className="h-4 w-4 text-[#0075FF]" /> {job.salary}
+                <Briefcase className="h-4 w-4 text-accent" /> {job.salary}
               </span>
               {job.contractType ? (
                 <span className="flex items-center gap-1.5">
-                  <Clock className="h-4 w-4 text-[#0075FF]" /> Shift: {job.contractType}
+                  <Clock className="h-4 w-4 text-accent" /> Shift: {job.contractType}
                 </span>
               ) : job.workingPattern ? (
                 <span className="flex items-center gap-1.5">
-                  <Clock className="h-4 w-4 text-[#0075FF]" /> {job.workingPattern}
+                  <Clock className="h-4 w-4 text-accent" /> {job.workingPattern}
                 </span>
               ) : null}
               {job.band && (
                 <span className="flex items-center gap-1.5">
-                  <Tag className="h-4 w-4 text-[#0075FF]" /> {job.band}
+                  <Tag className="h-4 w-4 text-accent" /> {job.band}
                 </span>
               )}
             </div>
@@ -112,7 +112,7 @@ const JobDetail = () => {
                 <ul className="space-y-3">
                   {job.responsibilities.map((r, i) => (
                     <li key={i} className="flex gap-3 text-sm leading-relaxed text-muted-foreground">
-                      <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-[#0075FF]" />
+                      <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent" />
                       {r}
                     </li>
                   ))}
@@ -124,7 +124,7 @@ const JobDetail = () => {
                 <ul className="space-y-3">
                   {job.requirements.map((r, i) => (
                     <li key={i} className="flex gap-3 text-sm leading-relaxed text-muted-foreground">
-                      <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-[#0075FF]" />
+                      <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent" />
                       {r}
                     </li>
                   ))}
@@ -139,7 +139,7 @@ const JobDetail = () => {
                 <ul className="space-y-3">
                   {job.benefits.map((b, i) => (
                     <li key={i} className="flex gap-3 text-sm text-muted-foreground">
-                      <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-[#0075FF]" />
+                      <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent" />
                       {b}
                     </li>
                   ))}
@@ -149,7 +149,7 @@ const JobDetail = () => {
               <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} custom={2} variants={fadeUp}>
                 <Link
                   to={regionPath(`/jobs/${job.id}/apply`)}
-                  className="group flex w-full items-center justify-center gap-2 rounded-md bg-primary px-6 py-4 text-sm font-semibold text-primary-foreground transition-all hover:bg-[#0075FF] hover:text-white"
+                  className="group flex w-full items-center justify-center gap-2 rounded-md bg-primary px-6 py-4 text-sm font-semibold text-primary-foreground transition-all hover:bg-accent hover:text-white"
                 >
                   Apply Now
                   <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />

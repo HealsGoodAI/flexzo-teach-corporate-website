@@ -416,26 +416,26 @@ const LEAD_TEMPLATE = `<!DOCTYPE html>
     body{margin:0;padding:0;background:#F4F5F7;font-family:'Helvetica Neue',Arial,Helvetica,sans-serif;color:#0a2540;-webkit-font-smoothing:antialiased}
     .wrap{width:100%;padding:32px 0 40px}
     .card{width:92%;max-width:680px;margin:0 auto;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 4px 24px rgba(0,0,0,.08)}
-    .header{background:#063165;padding:22px 32px}
+    .header{background:#2C0947;padding:22px 32px}
     .header img{height:28px;width:auto;display:block}
-    .alert-bar{background:#0075FF;padding:10px 32px;color:#fff;font-size:11px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase}
+    .alert-bar{background:#59029F;padding:10px 32px;color:#fff;font-size:11px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase}
     .content{padding:28px 32px 24px}
-    .heading{font-size:20px;font-weight:700;color:#063165;margin:0 0 6px;line-height:1.3}
+    .heading{font-size:20px;font-weight:700;color:#2C0947;margin:0 0 6px;line-height:1.3}
     .sub{font-size:13px;color:#6B7280;margin:0 0 24px}
     .divider{height:1px;background:#E5E7EB;margin:20px 0}
     .section-label{font-size:10px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#9CA3AF;margin:0 0 10px}
     .detail-grid{display:table;width:100%;border-collapse:collapse}
     .detail-row{display:table-row}
     .detail-key{display:table-cell;padding:7px 16px 7px 0;font-size:13px;color:#6B7280;white-space:nowrap;vertical-align:top;width:120px}
-    .detail-val{display:table-cell;padding:7px 0;font-size:13px;color:#063165;font-weight:600;vertical-align:top}
-    .job-chip{display:inline-block;background:#EFF6FF;color:#0075FF;border:1px solid #BFDBFE;border-radius:6px;padding:6px 12px;font-size:13px;font-weight:600;margin-bottom:20px}
+    .detail-val{display:table-cell;padding:7px 0;font-size:13px;color:#2C0947;font-weight:600;vertical-align:top}
+    .job-chip{display:inline-block;background:#EFF6FF;color:#59029F;border:1px solid #BFDBFE;border-radius:6px;padding:6px 12px;font-size:13px;font-weight:600;margin-bottom:20px}
     .cv-box{display:flex;align-items:center;gap:12px;background:#F9FAFB;border:1px solid #E5E7EB;border-radius:8px;padding:12px 16px;margin-top:4px}
     .cv-icon{width:32px;height:32px;border-radius:6px;background:#EFF6FF;display:flex;align-items:center;justify-content:center;flex-shrink:0}
-    .cv-name{font-size:13px;font-weight:600;color:#063165}
+    .cv-name{font-size:13px;font-weight:600;color:#2C0947}
     .cv-sub{font-size:11px;color:#9CA3AF;margin-top:1px}
     .cta-row{margin-top:24px}
-    .cta-btn{display:inline-block;background:#0075FF;color:#fff;text-decoration:none;font-size:13px;font-weight:700;padding:11px 22px;border-radius:7px}
-    .footer{background:#063165;padding:20px 32px;font-size:11px;color:rgba(255,255,255,0.5);line-height:1.6}
+    .cta-btn{display:inline-block;background:#59029F;color:#fff;text-decoration:none;font-size:13px;font-weight:700;padding:11px 22px;border-radius:7px}
+    .footer{background:#2C0947;padding:20px 32px;font-size:11px;color:rgba(255,255,255,0.5);line-height:1.6}
     .footer strong{color:rgba(255,255,255,0.7)}
     .footer a{color:rgba(255,255,255,0.5);text-decoration:none}
   </style>
@@ -455,14 +455,14 @@ const LEAD_TEMPLATE = `<!DOCTYPE html>
       <div class="detail-grid">
         <div class="detail-row"><span class="detail-key">First Name</span><span class="detail-val">{{firstName}}</span></div>
         <div class="detail-row"><span class="detail-key">Last Name</span><span class="detail-val">{{lastName}}</span></div>
-        <div class="detail-row"><span class="detail-key">Email</span><span class="detail-val"><a href="mailto:{{email}}" style="color:#0075FF;text-decoration:none;">{{email}}</a></span></div>
-        <div class="detail-row"><span class="detail-key">Job Link</span><span class="detail-val"><a href="{{jobLink}}" style="color:#0075FF;text-decoration:none;">View Listing</a></span></div>
+         <div class="detail-row"><span class="detail-key">Email</span><span class="detail-val"><a href="mailto:{{email}}" style="color:#59029F;text-decoration:none;">{{email}}</a></span></div>
+        <div class="detail-row"><span class="detail-key">Job Link</span><span class="detail-val"><a href="{{jobLink}}" style="color:#59029F;text-decoration:none;">View Listing</a></span></div>
       </div>
       <div class="divider"></div>
       <p class="section-label">CV / Resume</p>
       <div class="cv-box">
         <div class="cv-icon">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6z" stroke="#0075FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><polyline points="14 2 14 8 20 8" stroke="#0075FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6z" stroke="#59029F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><polyline points="14 2 14 8 20 8" stroke="#59029F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </div>
         <div>
           <div class="cv-name">{{firstName}} {{lastName}} – CV</div>
@@ -491,31 +491,31 @@ const APPLICANT_UK_TEMPLATE = `<!DOCTYPE html>
     body{margin:0;padding:0;background:#F4F5F7;font-family:'Helvetica Neue',Arial,Helvetica,sans-serif;color:#0a2540;-webkit-font-smoothing:antialiased}
     .wrap{width:100%;padding:32px 0 40px}
     .card{width:92%;max-width:600px;margin:0 auto;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 4px 24px rgba(0,0,0,.08)}
-    .header{background:#063165;padding:22px 32px}
+    .header{background:#2C0947;padding:22px 32px}
     .header img{height:26px;width:auto;display:block}
-    .hero{background:linear-gradient(135deg,#0075FF 0%,#063165 100%);padding:36px 32px 32px;text-align:center}
+    .hero{background:linear-gradient(135deg,#59029F 0%,#2C0947 100%);padding:36px 32px 32px;text-align:center}
     .check-circle{width:56px;height:56px;background:rgba(255,255,255,0.15);border-radius:50%;display:inline-flex;align-items:center;justify-content:center;margin-bottom:14px}
     .hero-title{font-size:22px;font-weight:700;color:#fff;margin:0 0 6px;line-height:1.3}
     .hero-sub{font-size:14px;color:rgba(255,255,255,0.75);margin:0;line-height:1.5}
     .content{padding:28px 32px}
-    .greeting{font-size:16px;font-weight:600;color:#063165;margin:0 0 12px}
+    .greeting{font-size:16px;font-weight:600;color:#2C0947;margin:0 0 12px}
     .body-text{font-size:14px;line-height:1.65;color:#374151;margin:0 0 16px}
-    .job-card{background:#F9FAFB;border:1px solid #E5E7EB;border-left:4px solid #0075FF;border-radius:8px;padding:14px 18px;margin:20px 0}
+    .job-card{background:#F9FAFB;border:1px solid #E5E7EB;border-left:4px solid #59029F;border-radius:8px;padding:14px 18px;margin:20px 0}
     .job-card-label{font-size:10px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#9CA3AF;margin:0 0 4px}
-    .job-card-title{font-size:15px;font-weight:700;color:#063165;margin:0}
+    .job-card-title{font-size:15px;font-weight:700;color:#2C0947;margin:0}
     .steps{margin:24px 0}
     .step{display:flex;gap:14px;margin-bottom:16px;align-items:flex-start}
-    .step-num{width:28px;height:28px;border-radius:50%;background:#EFF6FF;color:#0075FF;font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px}
+    .step-num{width:28px;height:28px;border-radius:50%;background:#EFF6FF;color:#59029F;font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px}
     .step-body{flex:1}
-    .step-title{font-size:13px;font-weight:700;color:#063165;margin:0 0 2px}
+    .step-title{font-size:13px;font-weight:700;color:#2C0947;margin:0 0 2px}
     .step-desc{font-size:12px;color:#6B7280;line-height:1.5;margin:0}
     .compliance-note{background:#FFFBEB;border:1px solid #FDE68A;border-radius:8px;padding:14px 18px;margin:20px 0;font-size:12px;color:#92400E;line-height:1.6}
     .compliance-note strong{color:#78350F}
     .divider{height:1px;background:#E5E7EB;margin:22px 0}
     .cta-section{text-align:center;margin-top:8px}
-    .cta-btn{display:inline-block;background:#0075FF;color:#fff;text-decoration:none;font-size:14px;font-weight:700;padding:13px 28px;border-radius:8px}
+    .cta-btn{display:inline-block;background:#59029F;color:#fff;text-decoration:none;font-size:14px;font-weight:700;padding:13px 28px;border-radius:8px}
     .cta-note{font-size:12px;color:#9CA3AF;margin-top:10px}
-    .footer{background:#063165;padding:20px 32px;text-align:center}
+    .footer{background:#2C0947;padding:20px 32px;text-align:center}
     .footer-logo img{height:20px;opacity:0.5;margin-bottom:10px}
     .footer-text{font-size:11px;color:rgba(255,255,255,0.5);line-height:1.6;margin:0}
     .footer-text a{color:rgba(255,255,255,0.5);text-decoration:none}
@@ -556,7 +556,7 @@ const APPLICANT_UK_TEMPLATE = `<!DOCTYPE html>
       <div class="divider"></div>
       <div class="cta-section">
         <a href="{{jobLink}}" class="cta-btn">View Job Listing</a>
-        <p class="cta-note">Questions? Email us at <a href="mailto:applications@flexzo.ai" style="color:#0075FF;">applications@flexzo.ai</a></p>
+        <p class="cta-note">Questions? Email us at <a href="mailto:applications@flexzo.ai" style="color:#59029F;">applications@flexzo.ai</a></p>
       </div>
     </div>
     <div class="footer">
@@ -582,31 +582,31 @@ const APPLICANT_US_TEMPLATE = `<!DOCTYPE html>
     body{margin:0;padding:0;background:#F4F5F7;font-family:'Helvetica Neue',Arial,Helvetica,sans-serif;color:#0a2540;-webkit-font-smoothing:antialiased}
     .wrap{width:100%;padding:32px 0 40px}
     .card{width:92%;max-width:600px;margin:0 auto;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 4px 24px rgba(0,0,0,.08)}
-    .header{background:#063165;padding:22px 32px}
+    .header{background:#2C0947;padding:22px 32px}
     .header img{height:26px;width:auto;display:block}
-    .hero{background:linear-gradient(135deg,#0075FF 0%,#063165 100%);padding:36px 32px 32px;text-align:center}
+    .hero{background:linear-gradient(135deg,#59029F 0%,#2C0947 100%);padding:36px 32px 32px;text-align:center}
     .check-circle{width:56px;height:56px;background:rgba(255,255,255,0.15);border-radius:50%;display:inline-flex;align-items:center;justify-content:center;margin-bottom:14px}
     .hero-title{font-size:22px;font-weight:700;color:#fff;margin:0 0 6px;line-height:1.3}
     .hero-sub{font-size:14px;color:rgba(255,255,255,0.75);margin:0;line-height:1.5}
     .content{padding:28px 32px}
-    .greeting{font-size:16px;font-weight:600;color:#063165;margin:0 0 12px}
+    .greeting{font-size:16px;font-weight:600;color:#2C0947;margin:0 0 12px}
     .body-text{font-size:14px;line-height:1.65;color:#374151;margin:0 0 16px}
-    .job-card{background:#F9FAFB;border:1px solid #E5E7EB;border-left:4px solid #0075FF;border-radius:8px;padding:14px 18px;margin:20px 0}
+    .job-card{background:#F9FAFB;border:1px solid #E5E7EB;border-left:4px solid #59029F;border-radius:8px;padding:14px 18px;margin:20px 0}
     .job-card-label{font-size:10px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#9CA3AF;margin:0 0 4px}
-    .job-card-title{font-size:15px;font-weight:700;color:#063165;margin:0}
+    .job-card-title{font-size:15px;font-weight:700;color:#2C0947;margin:0}
     .steps{margin:24px 0}
     .step{display:flex;gap:14px;margin-bottom:16px;align-items:flex-start}
-    .step-num{width:28px;height:28px;border-radius:50%;background:#EFF6FF;color:#0075FF;font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px}
+    .step-num{width:28px;height:28px;border-radius:50%;background:#EFF6FF;color:#59029F;font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px}
     .step-body{flex:1}
-    .step-title{font-size:13px;font-weight:700;color:#063165;margin:0 0 2px}
+    .step-title{font-size:13px;font-weight:700;color:#2C0947;margin:0 0 2px}
     .step-desc{font-size:12px;color:#6B7280;line-height:1.5;margin:0}
     .compliance-note{background:#FFFBEB;border:1px solid #FDE68A;border-radius:8px;padding:14px 18px;margin:20px 0;font-size:12px;color:#92400E;line-height:1.6}
     .compliance-note strong{color:#78350F}
     .divider{height:1px;background:#E5E7EB;margin:22px 0}
     .cta-section{text-align:center;margin-top:8px}
-    .cta-btn{display:inline-block;background:#0075FF;color:#fff;text-decoration:none;font-size:14px;font-weight:700;padding:13px 28px;border-radius:8px}
+    .cta-btn{display:inline-block;background:#59029F;color:#fff;text-decoration:none;font-size:14px;font-weight:700;padding:13px 28px;border-radius:8px}
     .cta-note{font-size:12px;color:#9CA3AF;margin-top:10px}
-    .footer{background:#063165;padding:20px 32px;text-align:center}
+    .footer{background:#2C0947;padding:20px 32px;text-align:center}
     .footer-logo img{height:20px;opacity:0.5;margin-bottom:10px}
     .footer-text{font-size:11px;color:rgba(255,255,255,0.5);line-height:1.6;margin:0}
     .footer-text a{color:rgba(255,255,255,0.5);text-decoration:none}
@@ -647,7 +647,7 @@ const APPLICANT_US_TEMPLATE = `<!DOCTYPE html>
       <div class="divider"></div>
       <div class="cta-section">
         <a href="{{jobLink}}" class="cta-btn">View Job Listing</a>
-        <p class="cta-note">Questions? Email us at <a href="mailto:applications@flexzo.ai" style="color:#0075FF;">applications@flexzo.ai</a></p>
+        <p class="cta-note">Questions? Email us at <a href="mailto:applications@flexzo.ai" style="color:#59029F;">applications@flexzo.ai</a></p>
       </div>
     </div>
     <div class="footer">
@@ -673,21 +673,21 @@ const BOOK_DEMO_TEMPLATE = `<!DOCTYPE html>
     body{margin:0;padding:0;background:#F4F5F7;font-family:'Helvetica Neue',Arial,Helvetica,sans-serif;color:#0a2540;-webkit-font-smoothing:antialiased}
     .wrap{width:100%;padding:32px 0 40px}
     .card{width:92%;max-width:680px;margin:0 auto;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 4px 24px rgba(0,0,0,.08)}
-    .header{background:#063165;padding:22px 32px}
+    .header{background:#2C0947;padding:22px 32px}
     .header img{height:28px;width:auto;display:block}
-    .alert-bar{background:#0075FF;padding:10px 32px;color:#fff;font-size:11px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase}
+    .alert-bar{background:#59029F;padding:10px 32px;color:#fff;font-size:11px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase}
     .content{padding:28px 32px 24px}
-    .heading{font-size:20px;font-weight:700;color:#063165;margin:0 0 6px;line-height:1.3}
+    .heading{font-size:20px;font-weight:700;color:#2C0947;margin:0 0 6px;line-height:1.3}
     .sub{font-size:13px;color:#6B7280;margin:0 0 24px}
     .divider{height:1px;background:#E5E7EB;margin:20px 0}
     .section-label{font-size:10px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#9CA3AF;margin:0 0 10px}
     .detail-grid{display:table;width:100%;border-collapse:collapse}
     .detail-row{display:table-row}
     .detail-key{display:table-cell;padding:7px 16px 7px 0;font-size:13px;color:#6B7280;white-space:nowrap;vertical-align:top;width:140px}
-    .detail-val{display:table-cell;padding:7px 0;font-size:13px;color:#063165;font-weight:600;vertical-align:top}
+    .detail-val{display:table-cell;padding:7px 0;font-size:13px;color:#2C0947;font-weight:600;vertical-align:top}
     .cta-row{margin-top:24px}
-    .cta-btn{display:inline-block;background:#0075FF;color:#fff;text-decoration:none;font-size:13px;font-weight:700;padding:11px 22px;border-radius:7px}
-    .footer{background:#063165;padding:20px 32px;font-size:11px;color:rgba(255,255,255,0.5);line-height:1.6}
+    .cta-btn{display:inline-block;background:#59029F;color:#fff;text-decoration:none;font-size:13px;font-weight:700;padding:11px 22px;border-radius:7px}
+    .footer{background:#2C0947;padding:20px 32px;font-size:11px;color:rgba(255,255,255,0.5);line-height:1.6}
     .footer strong{color:rgba(255,255,255,0.7)}
     .footer a{color:rgba(255,255,255,0.5);text-decoration:none}
   </style>
@@ -705,7 +705,7 @@ const BOOK_DEMO_TEMPLATE = `<!DOCTYPE html>
       <p class="section-label">Contact Details</p>
       <div class="detail-grid">
         <div class="detail-row"><span class="detail-key">Name</span><span class="detail-val">{{name}}</span></div>
-        <div class="detail-row"><span class="detail-key">Email</span><span class="detail-val"><a href="mailto:{{email}}" style="color:#0075FF;text-decoration:none;">{{email}}</a></span></div>
+        <div class="detail-row"><span class="detail-key">Email</span><span class="detail-val"><a href="mailto:{{email}}" style="color:#59029F;text-decoration:none;">{{email}}</a></span></div>
         <div class="detail-row"><span class="detail-key">Telephone</span><span class="detail-val">{{telephone}}</span></div>
         <div class="detail-row"><span class="detail-key">Organisation</span><span class="detail-val">{{organisation}}</span></div>
       </div>
@@ -737,22 +737,22 @@ const CONTACT_TEMPLATE = `<!DOCTYPE html>
     body{margin:0;padding:0;background:#F4F5F7;font-family:'Helvetica Neue',Arial,Helvetica,sans-serif;color:#0a2540;-webkit-font-smoothing:antialiased}
     .wrap{width:100%;padding:32px 0 40px}
     .card{width:92%;max-width:680px;margin:0 auto;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 4px 24px rgba(0,0,0,.08)}
-    .header{background:#063165;padding:22px 32px}
+    .header{background:#2C0947;padding:22px 32px}
     .header img{height:28px;width:auto;display:block}
-    .alert-bar{background:#0075FF;padding:10px 32px;color:#fff;font-size:11px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase}
+    .alert-bar{background:#59029F;padding:10px 32px;color:#fff;font-size:11px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase}
     .content{padding:28px 32px 24px}
-    .heading{font-size:20px;font-weight:700;color:#063165;margin:0 0 6px;line-height:1.3}
+    .heading{font-size:20px;font-weight:700;color:#2C0947;margin:0 0 6px;line-height:1.3}
     .sub{font-size:13px;color:#6B7280;margin:0 0 24px}
     .divider{height:1px;background:#E5E7EB;margin:20px 0}
     .section-label{font-size:10px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#9CA3AF;margin:0 0 10px}
     .detail-grid{display:table;width:100%;border-collapse:collapse}
     .detail-row{display:table-row}
     .detail-key{display:table-cell;padding:7px 16px 7px 0;font-size:13px;color:#6B7280;white-space:nowrap;vertical-align:top;width:140px}
-    .detail-val{display:table-cell;padding:7px 0;font-size:13px;color:#063165;font-weight:600;vertical-align:top}
-    .message-box{background:#F9FAFB;border:1px solid #E5E7EB;border-left:4px solid #0075FF;border-radius:8px;padding:14px 18px;margin:16px 0;font-size:13px;color:#374151;line-height:1.65}
+    .detail-val{display:table-cell;padding:7px 0;font-size:13px;color:#2C0947;font-weight:600;vertical-align:top}
+    .message-box{background:#F9FAFB;border:1px solid #E5E7EB;border-left:4px solid #59029F;border-radius:8px;padding:14px 18px;margin:16px 0;font-size:13px;color:#374151;line-height:1.65}
     .cta-row{margin-top:24px}
-    .cta-btn{display:inline-block;background:#0075FF;color:#fff;text-decoration:none;font-size:13px;font-weight:700;padding:11px 22px;border-radius:7px}
-    .footer{background:#063165;padding:20px 32px;font-size:11px;color:rgba(255,255,255,0.5);line-height:1.6}
+    .cta-btn{display:inline-block;background:#59029F;color:#fff;text-decoration:none;font-size:13px;font-weight:700;padding:11px 22px;border-radius:7px}
+    .footer{background:#2C0947;padding:20px 32px;font-size:11px;color:rgba(255,255,255,0.5);line-height:1.6}
     .footer strong{color:rgba(255,255,255,0.7)}
     .footer a{color:rgba(255,255,255,0.5);text-decoration:none}
   </style>
@@ -770,7 +770,7 @@ const CONTACT_TEMPLATE = `<!DOCTYPE html>
       <p class="section-label">Contact Details</p>
       <div class="detail-grid">
         <div class="detail-row"><span class="detail-key">Name</span><span class="detail-val">{{name}}</span></div>
-        <div class="detail-row"><span class="detail-key">Email</span><span class="detail-val"><a href="mailto:{{email}}" style="color:#0075FF;text-decoration:none;">{{email}}</a></span></div>
+        <div class="detail-row"><span class="detail-key">Email</span><span class="detail-val"><a href="mailto:{{email}}" style="color:#59029F;text-decoration:none;">{{email}}</a></span></div>
         <div class="detail-row"><span class="detail-key">Phone</span><span class="detail-val">{{phone}}</span></div>
         <div class="detail-row"><span class="detail-key">Company</span><span class="detail-val">{{company}}</span></div>
       </div>
@@ -799,16 +799,16 @@ const GENERIC_TEMPLATE = `<!DOCTYPE html>
     body{margin:0;padding:0;background:#F4F5F7;font-family:'Helvetica Neue',Arial,Helvetica,sans-serif;color:#0a2540;-webkit-font-smoothing:antialiased}
     .wrap{width:100%;padding:32px 0 40px}
     .card{width:92%;max-width:600px;margin:0 auto;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 4px 24px rgba(0,0,0,.08)}
-    .header{background:#063165;padding:22px 32px}
+    .header{background:#2C0947;padding:22px 32px}
     .header img{height:26px;width:auto;display:block}
     .content{padding:28px 32px}
-    .greeting{font-size:16px;font-weight:600;color:#063165;margin:0 0 12px}
+    .greeting{font-size:16px;font-weight:600;color:#2C0947;margin:0 0 12px}
     .body-text{font-size:14px;line-height:1.65;color:#374151;margin:0 0 16px}
     .divider{height:1px;background:#E5E7EB;margin:22px 0}
     .cta-section{text-align:center;margin-top:8px}
-    .cta-btn{display:inline-block;background:#0075FF;color:#fff;text-decoration:none;font-size:14px;font-weight:700;padding:13px 28px;border-radius:8px}
+    .cta-btn{display:inline-block;background:#59029F;color:#fff;text-decoration:none;font-size:14px;font-weight:700;padding:13px 28px;border-radius:8px}
     .cta-note{font-size:12px;color:#9CA3AF;margin-top:10px}
-    .footer{background:#063165;padding:20px 32px;text-align:center}
+    .footer{background:#2C0947;padding:20px 32px;text-align:center}
     .footer-logo img{height:20px;opacity:0.5;margin-bottom:10px}
     .footer-text{font-size:11px;color:rgba(255,255,255,0.5);line-height:1.6;margin:0}
     .footer-text a{color:rgba(255,255,255,0.5);text-decoration:none}
