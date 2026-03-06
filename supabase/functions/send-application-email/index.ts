@@ -434,8 +434,8 @@ const LEAD_TEMPLATE = `<!DOCTYPE html>
     .cv-name{font-size:13px;font-weight:600;color:#2C0947}
     .cv-sub{font-size:11px;color:#9CA3AF;margin-top:1px}
     .cta-row{margin-top:24px}
-    .cta-btn{display:inline-block;background:#0075FF;color:#fff;text-decoration:none;font-size:13px;font-weight:700;padding:11px 22px;border-radius:7px}
-    .footer{background:#063165;padding:20px 32px;font-size:11px;color:rgba(255,255,255,0.5);line-height:1.6}
+    .cta-btn{display:inline-block;background:#59029F;color:#fff;text-decoration:none;font-size:13px;font-weight:700;padding:11px 22px;border-radius:7px}
+    .footer{background:#2C0947;padding:20px 32px;font-size:11px;color:rgba(255,255,255,0.5);line-height:1.6}
     .footer strong{color:rgba(255,255,255,0.7)}
     .footer a{color:rgba(255,255,255,0.5);text-decoration:none}
   </style>
