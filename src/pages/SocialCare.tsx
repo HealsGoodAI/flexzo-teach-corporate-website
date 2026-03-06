@@ -53,7 +53,7 @@ const SocialCare = () => {
           <motion.div initial="hidden" animate="visible" variants={fadeUp} className="max-w-4xl">
             <p className="mb-8 text-sm font-semibold uppercase tracking-[0.3em] text-[#0CE3FF]">{t("Social Care")}</p>
             <h1 className="text-5xl font-bold leading-[1.08] tracking-tight text-primary-foreground md:text-7xl lg:text-8xl">
-              {t("AI-Powered Workforce for")} <span className="text-[#59029F]">{t("Social Care")}</span>
+              {t("AI-Powered Workforce for")} <span className="text-[#DC44CB]">{t("Social Care")}</span>
             </h1>
             <motion.p initial="hidden" animate="visible" custom={1} variants={fadeUp} className="mt-10 max-w-2xl text-xl leading-relaxed text-primary-foreground/60 md:text-2xl">
               {t("Flexzo replaces fragmented, agency-led processes with intelligent automation — helping care homes radically reduce staffing costs while improving fill rates, control, and staff experience.")}
