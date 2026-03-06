@@ -202,7 +202,7 @@ const PrimaryCare = () => {
                 variants={fadeUp}
                 className="group border border-primary-foreground/5 bg-foreground p-10 transition-colors hover:bg-primary-foreground/5"
               >
-                <f.icon className="mb-6 h-8 w-8 text-[#59029F] transition-transform group-hover:scale-110" />
+                <f.icon className="mb-6 h-8 w-8 text-[#DC44CB] transition-transform group-hover:scale-110" />
                 <h3 className="mb-3 text-xl font-semibold text-primary-foreground">
                   {f.title}
                 </h3>
