@@ -4,7 +4,7 @@ import { useLocation } from "react-router-dom";
 import { Menu, X, ChevronDown } from "lucide-react";
 import RegionFlag from "@/components/RegionFlag";
 import flexzoLogo from "@/assets/Flexzo-Logo.svg";
-import flexzoLogoWhite from "@/assets/flexzo-logo-white.png";
+import flexzoLogoWhite from "@/assets/flexzo-logo-white.svg";
 import { useRegion } from "@/hooks/useRegion";
 import { useRegionText } from "@/lib/regionalize";
 
