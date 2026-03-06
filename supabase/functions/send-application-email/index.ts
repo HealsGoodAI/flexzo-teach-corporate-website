@@ -598,7 +598,7 @@ const APPLICANT_US_TEMPLATE = `<!DOCTYPE html>
     .step{display:flex;gap:14px;margin-bottom:16px;align-items:flex-start}
     .step-num{width:28px;height:28px;border-radius:50%;background:#EFF6FF;color:#59029F;font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px}
     .step-body{flex:1}
-    .step-title{font-size:13px;font-weight:700;color:#063165;margin:0 0 2px}
+    .step-title{font-size:13px;font-weight:700;color:#2C0947;margin:0 0 2px}
     .step-desc{font-size:12px;color:#6B7280;line-height:1.5;margin:0}
     .compliance-note{background:#FFFBEB;border:1px solid #FDE68A;border-radius:8px;padding:14px 18px;margin:20px 0;font-size:12px;color:#92400E;line-height:1.6}
     .compliance-note strong{color:#78350F}
