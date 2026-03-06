@@ -304,7 +304,7 @@ const Team = () => {
           >
             <h2 className="text-3xl font-bold text-primary-foreground md:text-5xl">
               Want to join the{" "}
-              <span className="text-[#0075FF]">team</span>?
+              <span className="text-[#59029F]">team</span>?
             </h2>
             <p className="mx-auto mt-6 max-w-xl text-lg text-primary-foreground/50">
               {t("We're always looking for passionate people who want to make a difference in healthcare.")}
@@ -312,7 +312,7 @@ const Team = () => {
             <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
               <RegionLink
                 href="/jobs"
-                className="inline-flex items-center gap-2 rounded-md bg-[#0075FF] px-8 py-4 text-sm font-semibold text-white transition-all hover:bg-[#0060D0]"
+                className="inline-flex items-center gap-2 rounded-md bg-[#59029F] px-8 py-4 text-sm font-semibold text-white transition-all hover:bg-[#4a0285]"
               >
                 View Open Roles
               </RegionLink>
