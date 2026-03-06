@@ -57,7 +57,7 @@ const Amplify = () => {
             <motion.div initial="hidden" animate="visible" variants={fadeUp}>
               <p className="mb-6 text-sm font-semibold uppercase tracking-[0.25em] text-[#0CE3FF]">{t("Amplify")}</p>
               <h1 className="text-5xl font-bold leading-[1.05] tracking-tight text-primary-foreground md:text-6xl lg:text-7xl">
-                {t("Activate talent,")}<br /><span className="text-[#59029F]">{t("amplify reach")}</span>
+                {t("Activate talent,")}<br /><span className="text-[#DC44CB]">{t("amplify reach")}</span>
               </h1>
               <p className="mt-8 max-w-lg text-lg leading-relaxed text-primary-foreground/60">
                 {t("When a role has limited or no matching clinicians, Amplify cascades it into optimised vacancy campaigns across high-performing external sources — attracting fresh candidates directly into your database.")}
