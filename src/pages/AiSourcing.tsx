@@ -183,9 +183,9 @@ const AiSourcing = () => {
                   className="rounded-2xl border border-primary-foreground/10 bg-primary-foreground/5 p-8 backdrop-blur-sm"
                 >
                   {"isIcon" in stat && stat.isIcon ? (
-                    stat.value === "lightning" ? <Zap className="h-10 w-10 text-[#59029F] md:h-12 md:w-12" /> : <ArrowUp className="h-10 w-10 text-[#59029F] md:h-12 md:w-12" />
+                    stat.value === "lightning" ? <Zap className="h-10 w-10 text-[#DC44CB] md:h-12 md:w-12" /> : <ArrowUp className="h-10 w-10 text-[#DC44CB] md:h-12 md:w-12" />
                   ) : (
-                    <p className="text-4xl font-bold text-[#59029F] md:text-5xl">{stat.value}</p>
+                    <p className="text-4xl font-bold text-[#DC44CB] md:text-5xl">{stat.value}</p>
                   )}
                   <p className="mt-2 text-sm text-primary-foreground/50">{stat.label}</p>
                 </motion.div>
