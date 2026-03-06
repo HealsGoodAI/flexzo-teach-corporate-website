@@ -139,7 +139,7 @@ const JobDetail = () => {
                 <ul className="space-y-3">
                   {job.benefits.map((b, i) => (
                     <li key={i} className="flex gap-3 text-sm text-muted-foreground">
-                      <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-[#0075FF]" />
+                      <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-accent" />
                       {b}
                     </li>
                   ))}
