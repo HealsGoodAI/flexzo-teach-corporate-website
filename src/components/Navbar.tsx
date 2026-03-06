@@ -308,7 +308,7 @@ const Navbar = ({ transparent = false }: NavbarProps) => {
                       >
                         <button
                           onClick={() => setMobileExpanded(isExpanded ? null : item)}
-                          className="flex w-full items-center justify-between py-3 text-3xl font-bold text-primary-foreground transition-colors hover:text-[#59029F]"
+                          className="flex w-full items-center justify-between py-3 text-3xl font-bold text-primary-foreground transition-colors hover:text-[#DC44CB]"
                         >
                           {item}
                           <ChevronDown
