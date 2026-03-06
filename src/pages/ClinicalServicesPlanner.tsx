@@ -108,7 +108,7 @@ const ClinicalServicesPlanner = () => {
             <motion.div initial="hidden" animate="visible" variants={fadeUp}>
               <p className="mb-6 text-sm font-semibold uppercase tracking-[0.25em] text-[#0CE3FF]">Clinical Services Planner</p>
               <h1 className="text-5xl font-bold leading-[1.05] tracking-tight text-primary-foreground md:text-6xl lg:text-7xl">
-                Design services<br /><span className="text-[#59029F]">that deliver</span>
+                Design services<br /><span className="text-[#DC44CB]">that deliver</span>
               </h1>
               <p className="mt-8 max-w-lg text-lg leading-relaxed text-primary-foreground/60">
                 A clinical operations platform that connects service design, demand forecasting and rostering so staffing matches how care is actually delivered.
