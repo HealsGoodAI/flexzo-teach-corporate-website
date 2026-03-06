@@ -65,13 +65,13 @@ const Rostering = () => {
             <motion.div initial="hidden" animate="visible" variants={fadeUp}>
               <p className="mb-6 text-sm font-semibold uppercase tracking-[0.25em] text-[#0CE3FF]">{t("Rostering")}</p>
               <h1 className="text-5xl font-bold leading-[1.05] tracking-tight text-primary-foreground md:text-6xl lg:text-7xl">
-                {t("Smarter rostering for")}<br /><span className="text-[#0075FF]">{t("safer care")}</span>
+                {t("Smarter rostering for")}<br /><span className="text-[#59029F]">{t("safer care")}</span>
               </h1>
               <p className="mt-8 max-w-lg text-lg leading-relaxed text-primary-foreground/60">
                 {t("The only end-to-end roster solution built for multi-professional health and care teams. Fully integrated rostering, absence management, temporary staffing and real-time command — giving you complete control of costs, quality and staff experience.")}
               </p>
               <div className="mt-10 flex flex-wrap gap-4">
-                <RegionLink href="/book-demo" className="group inline-flex items-center gap-2 rounded-md bg-[#0075FF] px-8 py-4 text-sm font-semibold text-white transition-all hover:bg-[#0060D0]">{t("Book a Demo")} <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" /></RegionLink>
+                <RegionLink href="/book-demo" className="group inline-flex items-center gap-2 rounded-md bg-[#59029F] px-8 py-4 text-sm font-semibold text-white transition-all hover:bg-[#4a0285]">{t("Book a Demo")} <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" /></RegionLink>
                 <RegionLink href="/contact" className="inline-flex items-center gap-2 rounded-md border border-primary-foreground/20 px-8 py-4 text-sm font-semibold text-primary-foreground transition-colors hover:border-primary-foreground/40">{t("Contact Sales")}</RegionLink>
               </div>
             </motion.div>
@@ -79,9 +79,9 @@ const Rostering = () => {
               {stats.map((stat, i) => (
                 <motion.div key={stat.label} custom={i + 2} initial="hidden" animate="visible" variants={fadeUp} className="rounded-2xl border border-primary-foreground/10 bg-primary-foreground/5 p-8 backdrop-blur-sm">
                   {"isIcon" in stat && stat.isIcon ? (
-                    <Users className="h-10 w-10 text-[#0075FF] md:h-12 md:w-12" />
+                    <Users className="h-10 w-10 text-[#59029F] md:h-12 md:w-12" />
                   ) : (
-                    <p className="text-4xl font-bold text-[#0075FF] md:text-5xl">{stat.value}</p>
+                    <p className="text-4xl font-bold text-[#59029F] md:text-5xl">{stat.value}</p>
                   )}
                   <p className="mt-2 text-sm text-primary-foreground/50">{t(stat.label)}</p>
                 </motion.div>
@@ -95,14 +95,14 @@ const Rostering = () => {
         <div className="mx-auto max-w-7xl px-6">
           <div className="grid gap-16 lg:grid-cols-[1fr_1.5fr]">
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeUp}>
-              <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#0075FF]">{t("Key Benefits")}</p>
+              <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#59029F]">{t("Key Benefits")}</p>
               <h2 className="mt-4 text-4xl font-bold leading-tight tracking-tight text-foreground md:text-5xl">{t("Rostering that")}<br />{t("delivers outcomes")}</h2>
               <p className="mt-6 text-lg leading-relaxed text-muted-foreground">{t("Scheduling health and care staff is increasingly complex. Flexzo Rostering cuts through this complexity to help control cost, improve staff experience and make care safer.")}</p>
             </motion.div>
             <div className="grid gap-6 sm:grid-cols-2">
               {keyBenefits.map((benefit, i) => (
-                <motion.div key={benefit.title} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={i} variants={fadeUp} className="group rounded-2xl border border-border bg-background p-8 transition-all hover:border-[#0075FF]/20 hover:shadow-lg">
-                  <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-[#0075FF]/10 transition-colors group-hover:bg-[#0075FF]/20"><benefit.icon className="h-6 w-6 text-[#0075FF]" /></div>
+                <motion.div key={benefit.title} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={i} variants={fadeUp} className="group rounded-2xl border border-border bg-background p-8 transition-all hover:border-[#59029F]/20 hover:shadow-lg">
+                  <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-[#59029F]/10 transition-colors group-hover:bg-[#59029F]/20"><benefit.icon className="h-6 w-6 text-[#59029F]" /></div>
                   <h3 className="mb-2 text-lg font-semibold text-foreground">{t(benefit.title)}</h3>
                   <p className="text-sm leading-relaxed text-muted-foreground">{t(benefit.description)}</p>
                 </motion.div>
@@ -121,7 +121,7 @@ const Rostering = () => {
           <div className="grid gap-px overflow-hidden rounded-2xl border border-primary-foreground/10 bg-primary-foreground/5 md:grid-cols-2 lg:grid-cols-3">
             {features.map((feature, i) => (
               <motion.div key={feature.title} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={i} variants={fadeUp} className="group border border-primary-foreground/5 bg-foreground p-10 transition-colors hover:bg-primary-foreground/5">
-                <feature.icon className="mb-6 h-8 w-8 text-[#0075FF] transition-transform group-hover:scale-110" />
+                <feature.icon className="mb-6 h-8 w-8 text-[#59029F] transition-transform group-hover:scale-110" />
                 <h3 className="mb-3 text-xl font-semibold text-primary-foreground">{t(feature.title)}</h3>
                 <p className="text-sm leading-relaxed text-primary-foreground/50">{t(feature.description)}</p>
               </motion.div>
@@ -133,14 +133,14 @@ const Rostering = () => {
       <section className="py-28 lg:py-36">
         <div className="mx-auto max-w-7xl px-6">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeUp} className="mb-20 text-center">
-            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#0075FF]">{t("How it works")}</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#59029F]">{t("How it works")}</p>
             <h2 className="mt-4 text-4xl font-bold tracking-tight text-foreground md:text-5xl">{t("From demand to deployment")}</h2>
           </motion.div>
           <div className="space-y-24">
             {howItWorks.map((item, i) => (
               <motion.div key={item.step} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} custom={0} variants={fadeUp} className={`grid items-center gap-12 lg:grid-cols-2 ${i % 2 === 1 ? "lg:direction-rtl" : ""}`}>
                 <div className={i % 2 === 1 ? "lg:order-2" : ""}>
-                  <div className="mb-4 flex items-center gap-4"><span className="text-6xl font-bold text-[#0075FF]/20 md:text-7xl">{item.step}</span></div>
+                  <div className="mb-4 flex items-center gap-4"><span className="text-6xl font-bold text-[#59029F]/20 md:text-7xl">{item.step}</span></div>
                   <h3 className="mb-4 text-3xl font-bold text-foreground md:text-4xl">{t(item.title)}</h3>
                   <p className="max-w-lg text-lg leading-relaxed text-muted-foreground">{t(item.text)}</p>
                 </div>
@@ -154,10 +154,10 @@ const Rostering = () => {
       </section>
 
       <section className="relative bg-foreground py-32 lg:py-40">
-        <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: "radial-gradient(circle at 30% 50%, hsl(210 100% 45% / 0.3) 0%, transparent 60%)" }} />
+        <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: "radial-gradient(circle at 30% 50%, hsl(269 97% 32% / 0.3) 0%, transparent 60%)" }} />
         <div className="relative z-10 mx-auto max-w-4xl px-6 text-center">
           <motion.p initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }} className="text-4xl font-bold leading-tight text-primary-foreground md:text-5xl lg:text-6xl">
-            {t("Get the right people, in the right place, at the")} <span className="text-[#0075FF]">{t("right time")}</span>.
+            {t("Get the right people, in the right place, at the")} <span className="text-[#59029F]">{t("right time")}</span>.
           </motion.p>
         </div>
       </section>
@@ -165,10 +165,10 @@ const Rostering = () => {
       <section className="py-28 lg:py-36">
         <div className="mx-auto max-w-4xl px-6 text-center">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}>
-            <h2 className="text-4xl font-bold tracking-tight text-foreground md:text-5xl">{t("Ready to see it")} <span className="text-[#0075FF]">{t("in action")}</span>?</h2>
+            <h2 className="text-4xl font-bold tracking-tight text-foreground md:text-5xl">{t("Ready to see it")} <span className="text-[#59029F]">{t("in action")}</span>?</h2>
             <p className="mx-auto mt-6 max-w-xl text-lg text-muted-foreground">{t("Book a demo and discover how Flexzo Rostering can transform your workforce scheduling.")}</p>
             <div className="mt-10 flex flex-wrap justify-center gap-4">
-              <RegionLink href="/book-demo" className="group inline-flex items-center gap-2 rounded-md bg-primary px-10 py-4 text-sm font-semibold text-primary-foreground transition-all hover:bg-[#0075FF] hover:text-white">{t("Book a Demo")} <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" /></RegionLink>
+              <RegionLink href="/book-demo" className="group inline-flex items-center gap-2 rounded-md bg-primary px-10 py-4 text-sm font-semibold text-primary-foreground transition-all hover:bg-[#59029F] hover:text-white">{t("Book a Demo")} <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" /></RegionLink>
               <RegionLink href="/contact" className="inline-flex items-center gap-2 rounded-md border border-border px-10 py-4 text-sm font-semibold text-foreground transition-colors hover:bg-muted">{t("Contact Us")}</RegionLink>
             </div>
           </motion.div>
