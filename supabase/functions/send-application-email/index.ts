@@ -748,11 +748,11 @@ const CONTACT_TEMPLATE = `<!DOCTYPE html>
     .detail-grid{display:table;width:100%;border-collapse:collapse}
     .detail-row{display:table-row}
     .detail-key{display:table-cell;padding:7px 16px 7px 0;font-size:13px;color:#6B7280;white-space:nowrap;vertical-align:top;width:140px}
-    .detail-val{display:table-cell;padding:7px 0;font-size:13px;color:#063165;font-weight:600;vertical-align:top}
-    .message-box{background:#F9FAFB;border:1px solid #E5E7EB;border-left:4px solid #0075FF;border-radius:8px;padding:14px 18px;margin:16px 0;font-size:13px;color:#374151;line-height:1.65}
+    .detail-val{display:table-cell;padding:7px 0;font-size:13px;color:#2C0947;font-weight:600;vertical-align:top}
+    .message-box{background:#F9FAFB;border:1px solid #E5E7EB;border-left:4px solid #59029F;border-radius:8px;padding:14px 18px;margin:16px 0;font-size:13px;color:#374151;line-height:1.65}
     .cta-row{margin-top:24px}
-    .cta-btn{display:inline-block;background:#0075FF;color:#fff;text-decoration:none;font-size:13px;font-weight:700;padding:11px 22px;border-radius:7px}
-    .footer{background:#063165;padding:20px 32px;font-size:11px;color:rgba(255,255,255,0.5);line-height:1.6}
+    .cta-btn{display:inline-block;background:#59029F;color:#fff;text-decoration:none;font-size:13px;font-weight:700;padding:11px 22px;border-radius:7px}
+    .footer{background:#2C0947;padding:20px 32px;font-size:11px;color:rgba(255,255,255,0.5);line-height:1.6}
     .footer strong{color:rgba(255,255,255,0.7)}
     .footer a{color:rgba(255,255,255,0.5);text-decoration:none}
   </style>
