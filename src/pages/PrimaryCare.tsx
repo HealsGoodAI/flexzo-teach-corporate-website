@@ -187,7 +187,7 @@ const PrimaryCare = () => {
             </p>
             <h2 className="mt-4 text-4xl font-bold tracking-tight text-primary-foreground md:text-5xl">
               Flexzo AI puts primary care teams{" "}
-              <span className="text-[#59029F]">in control</span>
+              <span className="text-[#DC44CB]">in control</span>
             </h2>
           </motion.div>
 
