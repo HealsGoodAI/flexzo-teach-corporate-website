@@ -513,9 +513,9 @@ const APPLICANT_UK_TEMPLATE = `<!DOCTYPE html>
     .compliance-note strong{color:#78350F}
     .divider{height:1px;background:#E5E7EB;margin:22px 0}
     .cta-section{text-align:center;margin-top:8px}
-    .cta-btn{display:inline-block;background:#0075FF;color:#fff;text-decoration:none;font-size:14px;font-weight:700;padding:13px 28px;border-radius:8px}
+    .cta-btn{display:inline-block;background:#59029F;color:#fff;text-decoration:none;font-size:14px;font-weight:700;padding:13px 28px;border-radius:8px}
     .cta-note{font-size:12px;color:#9CA3AF;margin-top:10px}
-    .footer{background:#063165;padding:20px 32px;text-align:center}
+    .footer{background:#2C0947;padding:20px 32px;text-align:center}
     .footer-logo img{height:20px;opacity:0.5;margin-bottom:10px}
     .footer-text{font-size:11px;color:rgba(255,255,255,0.5);line-height:1.6;margin:0}
     .footer-text a{color:rgba(255,255,255,0.5);text-decoration:none}
