@@ -47,7 +47,7 @@ const Pharmacy = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-foreground/40 via-foreground/70 to-foreground" />
         <div className="relative z-10 mx-auto w-full max-w-7xl px-6 py-40">
           <motion.div initial="hidden" animate="visible" variants={fadeUp} className="max-w-4xl">
-            <p className="mb-8 text-sm font-semibold uppercase tracking-[0.3em] text-[#0CE3FF]">{t("Pharmacy")}</p>
+            <p className="mb-8 text-sm font-semibold uppercase tracking-[0.3em] text-[#DC44CB]">{t("Pharmacy")}</p>
             <h1 className="text-5xl font-bold leading-[1.08] tracking-tight text-primary-foreground md:text-7xl lg:text-8xl">
               {t("Smarter Locum Cover for")} <span className="text-[#DC44CB]">{t("UK Pharmacies")}</span>
             </h1>
