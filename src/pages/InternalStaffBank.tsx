@@ -116,7 +116,7 @@ const InternalStaffBank = () => {
             <motion.div initial="hidden" animate="visible" variants={fadeUp}>
               <p className="mb-6 text-sm font-semibold uppercase tracking-[0.25em] text-[#0CE3FF]">{t("Internal Staff Bank")}</p>
               <h1 className="text-5xl font-bold leading-[1.05] tracking-tight text-primary-foreground md:text-6xl lg:text-7xl">
-                {t("Make your bank the")}{" "}<span className="text-[#59029F]">first place you look</span>
+                {t("Make your bank the")}{" "}<span className="text-[#DC44CB]">first place you look</span>
               </h1>
               <p className="mt-8 max-w-lg text-lg leading-relaxed text-primary-foreground/60">
                 A purpose-built platform that turns casual and temporary workers into a reliable, first-choice source of clinical cover — reducing agency reliance and lowering cost-per-shift.
