@@ -427,8 +427,8 @@ const LEAD_TEMPLATE = `<!DOCTYPE html>
     .detail-grid{display:table;width:100%;border-collapse:collapse}
     .detail-row{display:table-row}
     .detail-key{display:table-cell;padding:7px 16px 7px 0;font-size:13px;color:#6B7280;white-space:nowrap;vertical-align:top;width:120px}
-    .detail-val{display:table-cell;padding:7px 0;font-size:13px;color:#063165;font-weight:600;vertical-align:top}
-    .job-chip{display:inline-block;background:#EFF6FF;color:#0075FF;border:1px solid #BFDBFE;border-radius:6px;padding:6px 12px;font-size:13px;font-weight:600;margin-bottom:20px}
+    .detail-val{display:table-cell;padding:7px 0;font-size:13px;color:#2C0947;font-weight:600;vertical-align:top}
+    .job-chip{display:inline-block;background:#EFF6FF;color:#59029F;border:1px solid #BFDBFE;border-radius:6px;padding:6px 12px;font-size:13px;font-weight:600;margin-bottom:20px}
     .cv-box{display:flex;align-items:center;gap:12px;background:#F9FAFB;border:1px solid #E5E7EB;border-radius:8px;padding:12px 16px;margin-top:4px}
     .cv-icon{width:32px;height:32px;border-radius:6px;background:#EFF6FF;display:flex;align-items:center;justify-content:center;flex-shrink:0}
     .cv-name{font-size:13px;font-weight:600;color:#063165}
