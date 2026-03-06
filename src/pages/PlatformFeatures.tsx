@@ -92,7 +92,7 @@ const PlatformFeatures = () => {
             </p>
             <div className="mt-10 flex flex-wrap items-center justify-center gap-8">
               {[t("Fill shifts faster"), t("AI-matched candidates"), t("No fees")].map((item) => (
-                <div key={item} className="flex items-center gap-3 text-primary-foreground/60"><CheckCircle2 className="h-5 w-5 text-[#0CE3FF]" /><span className="text-sm font-medium">{item}</span></div>
+                <div key={item} className="flex items-center gap-3 text-primary-foreground/60"><CheckCircle2 className="h-5 w-5 text-[#DC44CB]" /><span className="text-sm font-medium">{item}</span></div>
               ))}
             </div>
             <div className="mt-10">

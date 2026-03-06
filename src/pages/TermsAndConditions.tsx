@@ -118,9 +118,9 @@ const TermsAndConditions = () => {
       {/* Hero */}
       <section className="relative overflow-hidden bg-gradient-to-br from-foreground via-foreground to-[#0a2540] pt-32 pb-16">
         <div className="mx-auto max-w-7xl px-6">
-          <p className="mb-3 text-xs font-semibold uppercase tracking-widest text-[#0CE3FF]">
-            Legal
-          </p>
+           <p className="mb-3 text-xs font-semibold uppercase tracking-widest text-[#DC44CB]">
+             Legal
+           </p>
           <h1 className="mb-4 text-4xl font-bold text-primary-foreground md:text-5xl">
             Terms & Conditions
           </h1>
