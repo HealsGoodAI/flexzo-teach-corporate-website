@@ -207,7 +207,7 @@ const PrivateHealthcare = () => {
           <div className="grid gap-16 lg:grid-cols-2">
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeUp}>
               <h2 className="text-4xl font-bold leading-tight text-primary-foreground md:text-5xl lg:text-6xl">
-                Key Benefits for{" "}<span className="text-[#59029F]">Private Hospitals</span>
+                Key Benefits for{" "}<span className="text-[#DC44CB]">Private Hospitals</span>
               </h2>
               <p className="mt-6 text-lg text-primary-foreground/60">Using Flexzo.ai helps private providers achieve:</p>
             </motion.div>
