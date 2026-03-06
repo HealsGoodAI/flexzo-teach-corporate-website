@@ -232,7 +232,7 @@ const CollaborativeStaffBank = () => {
         <div className="relative z-10 mx-auto max-w-4xl px-6 text-center">
           <motion.div initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }}>
             <p className="text-4xl font-bold leading-tight text-primary-foreground md:text-5xl lg:text-6xl">
-              {t("A shared bank that actually works for")}{" "}<span className="text-[#59029F]">{t("clinical services")}</span>.
+              {t("A shared bank that actually works for")}{" "}<span className="text-[#DC44CB]">{t("clinical services")}</span>.
             </p>
             <p className="mx-auto mt-8 max-w-2xl text-lg leading-relaxed text-primary-foreground/50">
               {t("Increasing resilience, lowering regional agency reliance and accelerating cross-site cover — delivering measurable reductions in premium spend and faster restoration of capacity during peaks or incidents.")}

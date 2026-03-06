@@ -219,7 +219,7 @@ const ClinicalServicesPlanner = () => {
         <div className="relative z-10 mx-auto max-w-4xl px-6 text-center">
           <motion.div initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }}>
             <p className="text-4xl font-bold leading-tight text-primary-foreground md:text-5xl lg:text-6xl">
-              Bridge the gap between service design and{" "}<span className="text-[#59029F]">operational delivery</span>.
+              Bridge the gap between service design and{" "}<span className="text-[#DC44CB]">operational delivery</span>.
             </p>
             <p className="mt-8 text-lg text-primary-foreground/40">
               Measurable reductions in cancellations, higher clinic productivity and demonstrable cost savings that support reinvestment into services.
