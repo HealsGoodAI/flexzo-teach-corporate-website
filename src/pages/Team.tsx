@@ -225,12 +225,12 @@ const Team = () => {
             variants={fadeUp}
             className="mb-16"
           >
-            <p className="mb-4 text-xs font-semibold uppercase tracking-[0.3em] text-[#0075FF]">
+            <p className="mb-4 text-xs font-semibold uppercase tracking-[0.3em] text-[#59029F]">
               Meet The Team
             </p>
             <h2 className="max-w-2xl text-3xl font-bold tracking-tight text-foreground md:text-5xl">
               The people behind{" "}
-              <span className="text-[#0075FF]">Flexzo</span>
+              <span className="text-[#59029F]">Flexzo</span>
             </h2>
           </motion.div>
 
