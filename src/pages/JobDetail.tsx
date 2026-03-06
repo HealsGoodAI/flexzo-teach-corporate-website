@@ -72,7 +72,7 @@ const JobDetail = () => {
                 </span>
               ) : job.workingPattern ? (
                 <span className="flex items-center gap-1.5">
-                  <Clock className="h-4 w-4 text-[#0075FF]" /> {job.workingPattern}
+                  <Clock className="h-4 w-4 text-accent" /> {job.workingPattern}
                 </span>
               ) : null}
               {job.band && (
