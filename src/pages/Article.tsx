@@ -28,7 +28,7 @@ const Article = () => {
         <div className="flex items-center justify-center pt-40 pb-20">
           <div className="text-center">
             <h1 className="mb-4 text-3xl font-bold text-foreground">Article Not Found</h1>
-            <Link to={regionPath("/news")} className="text-[#0075FF] hover:underline">
+            <Link to={regionPath("/news")} className="text-[#59029F] hover:underline">
               ← Back to Knowledge Hub
             </Link>
           </div>
@@ -42,12 +42,10 @@ const Article = () => {
     .filter((a) => a.category === article.category && a.slug !== article.slug)
     .slice(0, 3);
 
-  // Extract a pull quote from the first section's content (second paragraph if available)
   const pullQuote = article.sections[0]?.content?.length > 1
     ? article.sections[0].content[1]
     : null;
 
-  // Generate a deterministic accent position for the hero
   const accentX = ((article.slug.charCodeAt(0) * 17) % 40) + 30;
   const accentY = ((article.slug.charCodeAt(1) * 13) % 30) + 20;
 
@@ -81,9 +79,8 @@ const Article = () => {
       />
       <Navbar transparent />
 
-      {/* ── HERO ── Full-bleed editorial header */}
+      {/* ── HERO ── */}
       <section className="relative min-h-[70vh] flex items-end overflow-hidden bg-foreground">
-        {/* Article hero image */}
         <img src={article.image} alt={article.title} className="absolute inset-0 h-full w-full object-cover opacity-30" />
         <div className="absolute inset-0 bg-gradient-to-t from-foreground via-foreground/70 to-foreground/30" />
 
@@ -98,7 +95,7 @@ const Article = () => {
             </Link>
 
             <div className="mb-8 flex flex-wrap items-center gap-4">
-              <span className="rounded-full bg-[#0075FF] px-4 py-1.5 text-xs font-semibold text-white">
+              <span className="rounded-full bg-[#59029F] px-4 py-1.5 text-xs font-semibold text-white">
                 {article.category}
               </span>
               <span className="flex items-center gap-1.5 text-sm text-primary-foreground/40">
@@ -138,10 +135,8 @@ const Article = () => {
       <article className="py-20 lg:py-28">
         <div className="mx-auto max-w-7xl px-6">
           <div className="grid gap-16 lg:grid-cols-[1fr_320px]">
-            {/* Main content */}
             <div>
               {article.sections.map((section, i) => {
-                // Insert a pull quote after the first section
                 const showPullQuote = i === 1 && pullQuote;
 
                 return (
@@ -152,7 +147,7 @@ const Article = () => {
                         whileInView="visible"
                         viewport={{ once: true }}
                         variants={fadeUp}
-                        className="my-16 border-l-4 border-[#0075FF] pl-8 lg:pl-12"
+                        className="my-16 border-l-4 border-[#59029F] pl-8 lg:pl-12"
                       >
                         <p className="text-2xl font-bold leading-snug text-foreground md:text-3xl">
                           {pullQuote.length > 200 ? pullQuote.slice(0, 200) + "…" : pullQuote}
@@ -185,11 +180,10 @@ const Article = () => {
                       ))}
                     </motion.div>
 
-                    {/* Visual separator every 3rd section */}
                     {i > 0 && i % 3 === 0 && i < article.sections.length - 1 && (
                       <div className="my-16 flex items-center gap-4">
                         <div className="h-px flex-1 bg-border" />
-                        <div className="h-2 w-2 rounded-full bg-[#0075FF]" />
+                        <div className="h-2 w-2 rounded-full bg-[#59029F]" />
                         <div className="h-px flex-1 bg-border" />
                       </div>
                     )}
@@ -198,10 +192,8 @@ const Article = () => {
               })}
             </div>
 
-            {/* Sidebar */}
             <aside className="hidden lg:block">
               <div className="sticky top-28 space-y-10">
-                {/* Table of contents */}
                 <div>
                   <h4 className="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-muted-foreground">
                     In this article
@@ -220,7 +212,6 @@ const Article = () => {
                   </nav>
                 </div>
 
-                {/* Mini CTA */}
                 <div className="rounded-2xl bg-foreground p-8">
                   <h4 className="mb-3 text-lg font-bold text-primary-foreground">
                     Transform your workforce
@@ -230,14 +221,13 @@ const Article = () => {
                   </p>
                   <a
                     href="/book-demo"
-                    className="inline-flex items-center gap-2 rounded-md bg-[#0075FF] px-6 py-3 text-sm font-semibold text-white transition-all hover:bg-[#0060D0]"
+                    className="inline-flex items-center gap-2 rounded-md bg-[#59029F] px-6 py-3 text-sm font-semibold text-white transition-all hover:bg-[#4a0285]"
                   >
                     Book a Demo
                     <ArrowRight size={14} />
                   </a>
                 </div>
 
-                {/* Share / meta */}
                 <div className="space-y-3">
                   <div className="flex items-center gap-2 text-xs text-muted-foreground">
                     <Tag size={12} />
@@ -258,10 +248,10 @@ const Article = () => {
         </div>
       </article>
 
-      {/* ── BOTTOM CTA ── Full-width editorial */}
+      {/* ── BOTTOM CTA ── */}
       <section className="relative bg-foreground py-24 lg:py-32">
         <div className="absolute inset-0 opacity-[0.04]" style={{
-          backgroundImage: "radial-gradient(circle at 70% 40%, hsl(210 100% 45% / 0.3) 0%, transparent 50%)"
+          backgroundImage: "radial-gradient(circle at 70% 40%, hsl(269 97% 32% / 0.3) 0%, transparent 50%)"
         }} />
         <div className="relative z-10 mx-auto max-w-4xl px-6 text-center">
           <motion.div
@@ -272,7 +262,7 @@ const Article = () => {
           >
             <h2 className="text-3xl font-bold text-primary-foreground md:text-5xl">
               Ready to transform your{" "}
-              <span className="text-[#0075FF]">workforce strategy</span>?
+              <span className="text-[#59029F]">workforce strategy</span>?
             </h2>
             <p className="mx-auto mt-6 max-w-xl text-lg text-primary-foreground/50">
               Discover how Flexzo AI can help your Trust reduce costs, improve fill rates
@@ -281,7 +271,7 @@ const Article = () => {
             <div className="mt-10">
               <a
                 href="/book-demo"
-                className="group inline-flex items-center gap-2 rounded-md bg-[#0075FF] px-8 py-4 text-sm font-semibold text-white transition-all hover:bg-[#0060D0]"
+                className="group inline-flex items-center gap-2 rounded-md bg-[#59029F] px-8 py-4 text-sm font-semibold text-white transition-all hover:bg-[#4a0285]"
               >
                 Book a Demo
                 <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
@@ -291,7 +281,7 @@ const Article = () => {
         </div>
       </section>
 
-      {/* ── RELATED ARTICLES ── Pentagram-style cards */}
+      {/* ── RELATED ARTICLES ── */}
       {related.length > 0 && (
         <section className="py-20 lg:py-28">
           <div className="mx-auto max-w-7xl px-6">
@@ -327,7 +317,7 @@ const Article = () => {
                         </span>
                       </div>
                     </div>
-                    <h3 className="text-lg font-bold leading-snug text-foreground transition-colors group-hover:text-[#0075FF]">
+                    <h3 className="text-lg font-bold leading-snug text-foreground transition-colors group-hover:text-[#59029F]">
                       {rel.title}
                     </h3>
                     <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
@@ -336,7 +326,7 @@ const Article = () => {
                     <div className="mt-4 flex items-center gap-3 text-xs text-muted-foreground">
                       <Clock size={12} />
                       {rel.readTime}
-                      <ArrowRight size={12} className="ml-auto transition-transform group-hover:translate-x-1 group-hover:text-[#0075FF]" />
+                      <ArrowRight size={12} className="ml-auto transition-transform group-hover:translate-x-1 group-hover:text-[#59029F]" />
                     </div>
                   </Link>
                 </motion.div>

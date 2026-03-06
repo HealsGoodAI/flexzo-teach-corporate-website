@@ -81,7 +81,7 @@ const PrimaryCare = () => {
             </p>
             <h1 className="text-5xl font-bold leading-[1.08] tracking-tight text-primary-foreground md:text-7xl lg:text-8xl">
               Smarter staffing for{" "}
-              <span className="text-[#0075FF]">primary care</span>
+              <span className="text-[#59029F]">primary care</span>
             </h1>
             <motion.p
               initial="hidden"
@@ -102,7 +102,7 @@ const PrimaryCare = () => {
             >
               <RegionLink
                 href="/book-demo"
-                className="group inline-flex items-center gap-2 rounded-md bg-[#0075FF] px-8 py-4 text-sm font-semibold text-white transition-all hover:bg-[#0060D0]"
+                className="group inline-flex items-center gap-2 rounded-md bg-[#59029F] px-8 py-4 text-sm font-semibold text-white transition-all hover:bg-[#4a0285]"
               >
                 Book a Demo
                 <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
@@ -129,7 +129,7 @@ const PrimaryCare = () => {
             className="max-w-5xl"
           >
             <h2 className="text-4xl font-bold leading-[1.15] tracking-tight text-foreground md:text-6xl lg:text-7xl">
-              <span className="text-[#0075FF]">Zero Fees.</span> Now & Forever.
+              <span className="text-[#59029F]">Zero Fees.</span> Now & Forever.
             </h2>
             <p className="mt-8 max-w-3xl text-xl leading-relaxed text-muted-foreground md:text-2xl">
               Direct access to clinical talent without agency margins, placement fees, or lock-ins.
@@ -148,7 +148,7 @@ const PrimaryCare = () => {
               viewport={{ once: true, margin: "-100px" }}
               variants={fadeUp}
             >
-              <p className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-[#0075FF]">
+              <p className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-[#59029F]">
                 Built for primary care
               </p>
               <h2 className="text-3xl font-bold leading-tight tracking-tight text-foreground md:text-5xl">
@@ -187,7 +187,7 @@ const PrimaryCare = () => {
             </p>
             <h2 className="mt-4 text-4xl font-bold tracking-tight text-primary-foreground md:text-5xl">
               Flexzo AI puts primary care teams{" "}
-              <span className="text-[#0075FF]">in control</span>
+              <span className="text-[#59029F]">in control</span>
             </h2>
           </motion.div>
 
@@ -202,7 +202,7 @@ const PrimaryCare = () => {
                 variants={fadeUp}
                 className="group border border-primary-foreground/5 bg-foreground p-10 transition-colors hover:bg-primary-foreground/5"
               >
-                <f.icon className="mb-6 h-8 w-8 text-[#0075FF] transition-transform group-hover:scale-110" />
+                <f.icon className="mb-6 h-8 w-8 text-[#59029F] transition-transform group-hover:scale-110" />
                 <h3 className="mb-3 text-xl font-semibold text-primary-foreground">
                   {f.title}
                 </h3>
@@ -225,7 +225,7 @@ const PrimaryCare = () => {
               viewport={{ once: true, margin: "-100px" }}
               variants={fadeUp}
             >
-              <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#0075FF]">
+              <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#59029F]">
                 National Reach
               </p>
               <h2 className="mt-4 text-4xl font-bold leading-tight tracking-tight text-foreground md:text-5xl">
@@ -257,7 +257,7 @@ const PrimaryCare = () => {
       {/* ── DITCH THE AGENCY ── */}
       <section className="relative bg-foreground py-32 lg:py-40">
         <div className="absolute inset-0 opacity-[0.03]" style={{
-          backgroundImage: "radial-gradient(circle at 30% 50%, hsl(210 100% 45% / 0.3) 0%, transparent 60%)"
+          backgroundImage: "radial-gradient(circle at 30% 50%, hsl(269 97% 32% / 0.3) 0%, transparent 60%)"
         }} />
         <div className="relative z-10 mx-auto max-w-5xl px-6">
           <motion.div
@@ -268,7 +268,7 @@ const PrimaryCare = () => {
           >
             <h2 className="text-4xl font-bold leading-tight text-primary-foreground md:text-5xl lg:text-6xl">
               Ditch the{" "}
-              <span className="text-[#0075FF]">Agency Hassle</span>
+              <span className="text-[#59029F]">Agency Hassle</span>
             </h2>
             <p className="mt-8 max-w-3xl text-xl leading-relaxed text-primary-foreground/60">
               Tired of juggling multiple agencies, emails, and duplicated admin? Flexzo replaces
@@ -278,7 +278,7 @@ const PrimaryCare = () => {
             <div className="mt-12">
               <RegionLink
                 href="/book-demo"
-                className="group inline-flex items-center gap-2 rounded-md bg-[#0075FF] px-8 py-4 text-sm font-semibold text-white transition-all hover:bg-[#0060D0]"
+                className="group inline-flex items-center gap-2 rounded-md bg-[#59029F] px-8 py-4 text-sm font-semibold text-white transition-all hover:bg-[#4a0285]"
               >
                 Book a Demo
                 <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
@@ -298,7 +298,7 @@ const PrimaryCare = () => {
               viewport={{ once: true, margin: "-100px" }}
               variants={fadeUp}
             >
-              <p className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-[#0075FF]">
+              <p className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-[#59029F]">
                 Pilot Programme
               </p>
               <h2 className="text-3xl font-bold leading-tight tracking-tight text-foreground md:text-5xl">
@@ -313,7 +313,7 @@ const PrimaryCare = () => {
               <div className="mt-10">
                 <RegionLink
                   href="/book-demo"
-                  className="group inline-flex items-center gap-2 rounded-md bg-[#0075FF] px-8 py-4 text-sm font-semibold text-white transition-all hover:bg-[#0060D0]"
+                  className="group inline-flex items-center gap-2 rounded-md bg-[#59029F] px-8 py-4 text-sm font-semibold text-white transition-all hover:bg-[#4a0285]"
                 >
                   Book a Demo
                   <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
@@ -342,7 +342,7 @@ const PrimaryCare = () => {
                     variants={fadeUp}
                     className="flex items-start gap-4"
                   >
-                    <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-[#0075FF]" />
+                    <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-[#59029F]" />
                     <span className="text-lg text-foreground">{item}</span>
                   </motion.li>
                 ))}
@@ -361,9 +361,9 @@ const PrimaryCare = () => {
             viewport={{ once: true }}
             variants={fadeUp}
           >
-            <Sparkles className="mx-auto mb-6 h-10 w-10 text-[#0075FF]" />
+            <Sparkles className="mx-auto mb-6 h-10 w-10 text-[#59029F]" />
             <h2 className="text-4xl font-bold tracking-tight text-foreground md:text-5xl">
-              Ready to <span className="text-[#0075FF]">Get Started</span>?
+              Ready to <span className="text-[#59029F]">Get Started</span>?
             </h2>
             <p className="mx-auto mt-6 max-w-xl text-lg text-muted-foreground">
               Join forward-thinking GP practices shaping the future of primary care workforce models.
@@ -380,7 +380,7 @@ const PrimaryCare = () => {
                   variants={fadeUp}
                   className="flex items-center gap-3"
                 >
-                  <CheckCircle2 className="h-5 w-5 shrink-0 text-[#0075FF]" />
+                  <CheckCircle2 className="h-5 w-5 shrink-0 text-[#59029F]" />
                   <span className="text-foreground">{item}</span>
                 </motion.li>
               ))}
@@ -389,7 +389,7 @@ const PrimaryCare = () => {
             <div className="mt-12 flex flex-wrap justify-center gap-4">
               <RegionLink
                 href="/book-demo"
-                className="group inline-flex items-center gap-2 rounded-md bg-[#0075FF] px-8 py-4 text-sm font-semibold text-white transition-all hover:bg-[#0060D0]"
+                className="group inline-flex items-center gap-2 rounded-md bg-[#59029F] px-8 py-4 text-sm font-semibold text-white transition-all hover:bg-[#4a0285]"
               >
                 Book a Demo
                 <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />

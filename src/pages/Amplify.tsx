@@ -9,24 +9,13 @@ import amplifyStep2 from "@/assets/amplify-step-2.jpg";
 import amplifyStep3 from "@/assets/amplify-step-3.jpg";
 import amplifyStep4 from "@/assets/amplify-step-4.jpg";
 import {
-  Megaphone,
-  Radio,
-  Gift,
-  BrainCircuit,
-  Link2,
-  BarChart3,
-  TrendingUp,
-  Users,
-  Globe,
-  Eye,
-  ArrowRight,
+  Megaphone, Radio, Gift, BrainCircuit, Link2, BarChart3, TrendingUp, Users, Globe, Eye, ArrowRight,
 } from "lucide-react";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },
   visible: (i: number = 0) => ({
-    opacity: 1,
-    y: 0,
+    opacity: 1, y: 0,
     transition: { duration: 0.7, delay: i * 0.1, ease: [0.25, 0.46, 0.45, 0.94] as [number, number, number, number] },
   }),
 };
@@ -62,19 +51,19 @@ const Amplify = () => {
       <Navbar transparent />
 
       <section className="relative flex min-h-[90vh] items-center overflow-hidden bg-foreground">
-        <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: "radial-gradient(circle at 70% 30%, hsl(210 100% 45% / 0.4) 0%, transparent 60%)" }} />
+        <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: "radial-gradient(circle at 70% 30%, hsl(269 97% 32% / 0.4) 0%, transparent 60%)" }} />
         <div className="relative z-10 mx-auto w-full max-w-7xl px-6 py-32">
           <div className="grid items-center gap-16 lg:grid-cols-2">
             <motion.div initial="hidden" animate="visible" variants={fadeUp}>
               <p className="mb-6 text-sm font-semibold uppercase tracking-[0.25em] text-[#0CE3FF]">{t("Amplify")}</p>
               <h1 className="text-5xl font-bold leading-[1.05] tracking-tight text-primary-foreground md:text-6xl lg:text-7xl">
-                {t("Activate talent,")}<br /><span className="text-[#0075FF]">{t("amplify reach")}</span>
+                {t("Activate talent,")}<br /><span className="text-[#59029F]">{t("amplify reach")}</span>
               </h1>
               <p className="mt-8 max-w-lg text-lg leading-relaxed text-primary-foreground/60">
                 {t("When a role has limited or no matching clinicians, Amplify cascades it into optimised vacancy campaigns across high-performing external sources — attracting fresh candidates directly into your database.")}
               </p>
               <div className="mt-10 flex flex-wrap gap-4">
-                <RegionLink href="/book-demo" className="group inline-flex items-center gap-2 rounded-md bg-[#0075FF] px-8 py-4 text-sm font-semibold text-white transition-all hover:bg-[#0060D0]">
+                <RegionLink href="/book-demo" className="group inline-flex items-center gap-2 rounded-md bg-[#59029F] px-8 py-4 text-sm font-semibold text-white transition-all hover:bg-[#4a0285]">
                   {t("Book a Demo")} <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
                 </RegionLink>
                 <RegionLink href="/contact" className="inline-flex items-center gap-2 rounded-md border border-primary-foreground/20 px-8 py-4 text-sm font-semibold text-primary-foreground transition-colors hover:border-primary-foreground/40">{t("Contact Sales")}</RegionLink>
@@ -83,7 +72,7 @@ const Amplify = () => {
             <motion.div initial="hidden" animate="visible" custom={2} variants={fadeUp} className="grid grid-cols-2 gap-6">
               {stats.map((stat, i) => (
                 <motion.div key={stat.label} custom={i + 2} initial="hidden" animate="visible" variants={fadeUp} className="rounded-2xl border border-primary-foreground/10 bg-primary-foreground/5 p-8 backdrop-blur-sm">
-                  <p className="text-4xl font-bold text-[#0075FF] md:text-5xl">{stat.value}</p>
+                  <p className="text-4xl font-bold text-[#59029F] md:text-5xl">{stat.value}</p>
                   <p className="mt-2 text-sm text-primary-foreground/50">{t(stat.label)}</p>
                 </motion.div>
               ))}
@@ -96,7 +85,7 @@ const Amplify = () => {
         <div className="mx-auto max-w-7xl px-6">
           <div className="grid gap-16 lg:grid-cols-[1fr_1.5fr]">
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeUp}>
-              <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#0075FF]">{t("Overview")}</p>
+              <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#59029F]">{t("Overview")}</p>
               <h2 className="mt-4 text-4xl font-bold leading-tight tracking-tight text-foreground md:text-5xl">{t("Behavioural science")}<br />{t("meets measurable coverage")}</h2>
             </motion.div>
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} custom={1} variants={fadeUp} className="space-y-6 text-lg leading-relaxed text-muted-foreground">
@@ -120,7 +109,7 @@ const Amplify = () => {
           <div className="grid gap-px overflow-hidden rounded-2xl border border-primary-foreground/10 bg-primary-foreground/5 md:grid-cols-2 lg:grid-cols-3">
             {features.map((feature, i) => (
               <motion.div key={feature.title} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={i} variants={fadeUp} className="group border border-primary-foreground/5 bg-foreground p-10 transition-colors hover:bg-primary-foreground/5">
-                <feature.icon className="mb-6 h-8 w-8 text-[#0075FF] transition-transform group-hover:scale-110" />
+                <feature.icon className="mb-6 h-8 w-8 text-[#59029F] transition-transform group-hover:scale-110" />
                 <h3 className="mb-3 text-xl font-semibold text-primary-foreground">{t(feature.title)}</h3>
                 <p className="text-sm leading-relaxed text-primary-foreground/50">{t(feature.description)}</p>
               </motion.div>
@@ -132,7 +121,7 @@ const Amplify = () => {
       <section className="py-28 lg:py-36">
         <div className="mx-auto max-w-7xl px-6">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeUp} className="mb-20 text-center">
-            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#0075FF]">{t("How it works")}</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#59029F]">{t("How it works")}</p>
             <h2 className="mt-4 text-4xl font-bold tracking-tight text-foreground md:text-5xl">{t("From gap to candidate")}</h2>
           </motion.div>
           <div className="space-y-24">
@@ -144,7 +133,7 @@ const Amplify = () => {
             ].map((item, i) => (
               <motion.div key={item.step} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} custom={0} variants={fadeUp} className={`grid items-center gap-12 lg:grid-cols-2 ${i % 2 === 1 ? "lg:direction-rtl" : ""}`}>
                 <div className={i % 2 === 1 ? "lg:order-2" : ""}>
-                  <div className="mb-4 flex items-center gap-4"><span className="text-6xl font-bold text-[#0075FF]/20 md:text-7xl">{item.step}</span></div>
+                  <div className="mb-4 flex items-center gap-4"><span className="text-6xl font-bold text-[#59029F]/20 md:text-7xl">{item.step}</span></div>
                   <h3 className="mb-4 text-3xl font-bold text-foreground md:text-4xl">{t(item.title)}</h3>
                   <p className="max-w-lg text-lg leading-relaxed text-muted-foreground">{t(item.text)}</p>
                 </div>
@@ -160,13 +149,13 @@ const Amplify = () => {
       <section className="border-t border-border bg-muted/30 py-28 lg:py-36">
         <div className="mx-auto max-w-7xl px-6">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeUp} className="mb-16">
-            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#0075FF]">{t("Why Amplify")}</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#59029F]">{t("Why Amplify")}</p>
             <h2 className="mt-4 text-4xl font-bold tracking-tight text-foreground md:text-5xl">{t("Benefits")}</h2>
           </motion.div>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {benefits.map((benefit, i) => (
-              <motion.div key={benefit.title} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={i} variants={fadeUp} className="group rounded-2xl border border-border bg-background p-10 transition-all hover:border-[#0075FF]/20 hover:shadow-lg">
-                <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-xl bg-[#0075FF]/10 transition-colors group-hover:bg-[#0075FF]/20"><benefit.icon className="h-7 w-7 text-[#0075FF]" /></div>
+              <motion.div key={benefit.title} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={i} variants={fadeUp} className="group rounded-2xl border border-border bg-background p-10 transition-all hover:border-[#59029F]/20 hover:shadow-lg">
+                <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-xl bg-[#59029F]/10 transition-colors group-hover:bg-[#59029F]/20"><benefit.icon className="h-7 w-7 text-[#59029F]" /></div>
                 <h3 className="mb-3 text-xl font-semibold text-foreground">{t(benefit.title)}</h3>
                 <p className="text-sm leading-relaxed text-muted-foreground">{t(benefit.description)}</p>
               </motion.div>
@@ -176,10 +165,10 @@ const Amplify = () => {
       </section>
 
       <section className="relative bg-foreground py-32 lg:py-40">
-        <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: "radial-gradient(circle at 30% 50%, hsl(210 100% 45% / 0.3) 0%, transparent 60%)" }} />
+        <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: "radial-gradient(circle at 30% 50%, hsl(269 97% 32% / 0.3) 0%, transparent 60%)" }} />
         <div className="relative z-10 mx-auto max-w-4xl px-6 text-center">
           <motion.p initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }} className="text-4xl font-bold leading-tight text-primary-foreground md:text-5xl lg:text-6xl">
-            {t("Convert engagement spend into")} <span className="text-[#0075FF]">{t("predictable operational capacity")}</span>.
+            {t("Convert engagement spend into")} <span className="text-[#59029F]">{t("predictable operational capacity")}</span>.
           </motion.p>
         </div>
       </section>
@@ -187,10 +176,10 @@ const Amplify = () => {
       <section className="py-28 lg:py-36">
         <div className="mx-auto max-w-4xl px-6 text-center">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}>
-            <h2 className="text-4xl font-bold tracking-tight text-foreground md:text-5xl">{t("Ready to")} <span className="text-[#0075FF]">{t("amplify")}</span> {t("your reach?")}</h2>
+            <h2 className="text-4xl font-bold tracking-tight text-foreground md:text-5xl">{t("Ready to")} <span className="text-[#59029F]">{t("amplify")}</span> {t("your reach?")}</h2>
             <p className="mx-auto mt-6 max-w-xl text-lg text-muted-foreground">{t("Book a demo and discover how Amplify can build your talent network and reduce agency dependency.")}</p>
             <div className="mt-10 flex flex-wrap justify-center gap-4">
-              <RegionLink href="/book-demo" className="group inline-flex items-center gap-2 rounded-md bg-primary px-10 py-4 text-sm font-semibold text-primary-foreground transition-all hover:bg-[#0075FF] hover:text-white">{t("Book a Demo")} <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" /></RegionLink>
+              <RegionLink href="/book-demo" className="group inline-flex items-center gap-2 rounded-md bg-primary px-10 py-4 text-sm font-semibold text-primary-foreground transition-all hover:bg-[#59029F] hover:text-white">{t("Book a Demo")} <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" /></RegionLink>
               <RegionLink href="/contact" className="inline-flex items-center gap-2 rounded-md border border-border px-10 py-4 text-sm font-semibold text-foreground transition-colors hover:bg-muted">{t("Contact Us")}</RegionLink>
             </div>
           </motion.div>

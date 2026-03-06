@@ -116,7 +116,7 @@ const EmployeeApp = () => {
       {/* ── HERO ── */}
       <section className="relative flex min-h-[90vh] items-center overflow-hidden bg-foreground">
         <div className="absolute inset-0 opacity-[0.03]" style={{
-          backgroundImage: "radial-gradient(circle at 40% 60%, hsl(210 100% 45% / 0.4) 0%, transparent 60%)"
+          backgroundImage: "radial-gradient(circle at 40% 60%, hsl(269 97% 32% / 0.4) 0%, transparent 60%)"
         }} />
 
         <div className="relative z-10 mx-auto w-full max-w-7xl px-6 py-32">
@@ -128,7 +128,7 @@ const EmployeeApp = () => {
               <h1 className="text-5xl font-bold leading-[1.05] tracking-tight text-primary-foreground md:text-6xl lg:text-7xl">
                 {t("Shifts, pay &")}
                 <br />
-                <span className="text-[#0075FF]">{t("docs in one app")}</span>
+                <span className="text-[#59029F]">{t("docs in one app")}</span>
               </h1>
               <p className="mt-8 max-w-lg text-lg leading-relaxed text-primary-foreground/60">
                 {t("A mobile-first companion for clinicians and bank staff that simplifies shift discovery, acceptance and credential management while keeping payroll and compliance at your fingertips.")}
@@ -136,7 +136,7 @@ const EmployeeApp = () => {
               <div className="mt-10 flex flex-wrap gap-4">
                 <RegionLink
                   href="/book-demo"
-                  className="group inline-flex items-center gap-2 rounded-md bg-[#0075FF] px-8 py-4 text-sm font-semibold text-white transition-all hover:bg-[#0060D0]"
+                  className="group inline-flex items-center gap-2 rounded-md bg-[#59029F] px-8 py-4 text-sm font-semibold text-white transition-all hover:bg-[#4a0285]"
                 >
                   {t("Book a Demo")}
                   <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
@@ -166,7 +166,7 @@ const EmployeeApp = () => {
                   variants={fadeUp}
                   className="rounded-2xl border border-primary-foreground/10 bg-primary-foreground/5 p-8 backdrop-blur-sm"
                 >
-                  <p className="text-4xl font-bold text-[#0075FF] md:text-5xl">{stat.value}</p>
+                  <p className="text-4xl font-bold text-[#59029F] md:text-5xl">{stat.value}</p>
                   <p className="mt-2 text-sm text-primary-foreground/50">{t(stat.label)}</p>
                 </motion.div>
               ))}
@@ -185,7 +185,7 @@ const EmployeeApp = () => {
               viewport={{ once: true, margin: "-100px" }}
               variants={fadeUp}
             >
-              <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#0075FF]">
+              <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#59029F]">
                 {t("Overview")}
               </p>
               <h2 className="mt-4 text-4xl font-bold leading-tight tracking-tight text-foreground md:text-5xl">
@@ -253,7 +253,7 @@ const EmployeeApp = () => {
                 variants={fadeUp}
                 className="group border border-primary-foreground/5 bg-foreground p-10 transition-colors hover:bg-primary-foreground/5"
               >
-                <feature.icon className="mb-6 h-8 w-8 text-[#0075FF] transition-transform group-hover:scale-110" />
+                <feature.icon className="mb-6 h-8 w-8 text-[#59029F] transition-transform group-hover:scale-110" />
                 <h3 className="mb-3 text-xl font-semibold text-primary-foreground">
                   {t(feature.title)}
                 </h3>
@@ -276,7 +276,7 @@ const EmployeeApp = () => {
             variants={fadeUp}
             className="mb-20 text-center"
           >
-            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#0075FF]">
+            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#59029F]">
               {t("How it works")}
             </p>
             <h2 className="mt-4 text-4xl font-bold tracking-tight text-foreground md:text-5xl">
@@ -326,7 +326,7 @@ const EmployeeApp = () => {
               >
                 <div className={i % 2 === 1 ? "lg:order-2" : ""}>
                   <div className="mb-4 flex items-center gap-4">
-                    <span className="text-6xl font-bold text-[#0075FF]/20 md:text-7xl">{item.step}</span>
+                    <span className="text-6xl font-bold text-[#59029F]/20 md:text-7xl">{item.step}</span>
                   </div>
                   <h3 className="mb-4 text-3xl font-bold text-foreground md:text-4xl">{t(item.title)}</h3>
                   <p className="max-w-lg text-lg leading-relaxed text-muted-foreground">{t(item.text)}</p>
@@ -336,8 +336,8 @@ const EmployeeApp = () => {
                     <img src={item.img} alt={item.title} className="h-full w-full object-cover" />
                   ) : (
                     <div className="flex h-full items-center justify-center">
-                      <div className="h-24 w-24 rounded-2xl bg-[#0075FF]/10 flex items-center justify-center">
-                        <item.icon className="h-12 w-12 text-[#0075FF]" />
+                      <div className="h-24 w-24 rounded-2xl bg-[#59029F]/10 flex items-center justify-center">
+                        <item.icon className="h-12 w-12 text-[#59029F]" />
                       </div>
                     </div>
                   )}
@@ -358,7 +358,7 @@ const EmployeeApp = () => {
             variants={fadeUp}
             className="mb-16"
           >
-            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#0075FF]">
+            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#59029F]">
               {t("Why Employee App")}
             </p>
             <h2 className="mt-4 text-4xl font-bold tracking-tight text-foreground md:text-5xl">
@@ -375,10 +375,10 @@ const EmployeeApp = () => {
                 viewport={{ once: true }}
                 custom={i}
                 variants={fadeUp}
-                className="group rounded-2xl border border-border bg-background p-10 transition-all hover:border-[#0075FF]/20 hover:shadow-lg"
+                className="group rounded-2xl border border-border bg-background p-10 transition-all hover:border-[#59029F]/20 hover:shadow-lg"
               >
-                <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-xl bg-[#0075FF]/10 transition-colors group-hover:bg-[#0075FF]/20">
-                  <benefit.icon className="h-7 w-7 text-[#0075FF]" />
+                <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-xl bg-[#59029F]/10 transition-colors group-hover:bg-[#59029F]/20">
+                  <benefit.icon className="h-7 w-7 text-[#59029F]" />
                 </div>
                 <h3 className="mb-3 text-xl font-semibold text-foreground">{t(benefit.title)}</h3>
                 <p className="text-sm leading-relaxed text-muted-foreground">{t(benefit.description)}</p>
@@ -391,7 +391,7 @@ const EmployeeApp = () => {
       {/* ── IMPACT QUOTE ── */}
       <section className="relative bg-foreground py-32 lg:py-40">
         <div className="absolute inset-0 opacity-[0.03]" style={{
-          backgroundImage: "radial-gradient(circle at 30% 50%, hsl(210 100% 45% / 0.3) 0%, transparent 60%)"
+          backgroundImage: "radial-gradient(circle at 30% 50%, hsl(269 97% 32% / 0.3) 0%, transparent 60%)"
         }} />
         <div className="relative z-10 mx-auto max-w-4xl px-6 text-center">
           <motion.p
@@ -402,7 +402,7 @@ const EmployeeApp = () => {
             className="text-4xl font-bold leading-tight text-primary-foreground md:text-5xl lg:text-6xl"
           >
             {t("Work when you want:")}{" "}
-            <span className="text-[#0075FF]">{t("shifts, pay & documents in one app")}</span>.
+            <span className="text-[#59029F]">{t("shifts, pay & documents in one app")}</span>.
           </motion.p>
         </div>
       </section>
@@ -417,7 +417,7 @@ const EmployeeApp = () => {
             variants={fadeUp}
           >
             <h2 className="text-4xl font-bold tracking-tight text-foreground md:text-5xl">
-              {t("Ready to")} <span className="text-[#0075FF]">{t("empower your workforce")}</span>?
+              {t("Ready to")} <span className="text-[#59029F]">{t("empower your workforce")}</span>?
             </h2>
             <p className="mx-auto mt-6 max-w-xl text-lg text-muted-foreground">
               {t("Book a demo and see how the Employee App can improve fill rates, reduce agency spend and give clinicians control.")}
@@ -425,7 +425,7 @@ const EmployeeApp = () => {
             <div className="mt-10 flex flex-wrap justify-center gap-4">
               <RegionLink
                 href="/book-demo"
-                className="group inline-flex items-center gap-2 rounded-md bg-primary px-10 py-4 text-sm font-semibold text-primary-foreground transition-all hover:bg-[#0075FF] hover:text-white"
+                className="group inline-flex items-center gap-2 rounded-md bg-primary px-10 py-4 text-sm font-semibold text-primary-foreground transition-all hover:bg-[#59029F] hover:text-white"
               >
                 {t("Book a Demo")}
                 <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
