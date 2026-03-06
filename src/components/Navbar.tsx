@@ -353,7 +353,7 @@ const Navbar = ({ transparent = false }: NavbarProps) => {
                       initial={{ opacity: 0, x: 40 }}
                       animate={{ opacity: 1, x: 0 }}
                       transition={{ delay: 0.15 + i * 0.06, duration: 0.4, ease: [0.25, 0.46, 0.45, 0.94] }}
-                      className="py-3 text-3xl font-bold text-primary-foreground transition-colors hover:text-[#59029F]"
+                      className="py-3 text-3xl font-bold text-primary-foreground transition-colors hover:text-[#DC44CB]"
                       onClick={() => setMobileOpen(false)}
                     >
                       {item}

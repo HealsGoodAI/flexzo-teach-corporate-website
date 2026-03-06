@@ -268,7 +268,7 @@ const PrimaryCare = () => {
           >
             <h2 className="text-4xl font-bold leading-tight text-primary-foreground md:text-5xl lg:text-6xl">
               Ditch the{" "}
-              <span className="text-[#59029F]">Agency Hassle</span>
+              <span className="text-[#DC44CB]">Agency Hassle</span>
             </h2>
             <p className="mt-8 max-w-3xl text-xl leading-relaxed text-primary-foreground/60">
               Tired of juggling multiple agencies, emails, and duplicated admin? Flexzo replaces
