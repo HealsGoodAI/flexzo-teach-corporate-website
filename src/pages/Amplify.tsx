@@ -57,7 +57,7 @@ const Amplify = () => {
             <motion.div initial="hidden" animate="visible" variants={fadeUp}>
               <p className="mb-6 text-sm font-semibold uppercase tracking-[0.25em] text-[#0CE3FF]">{t("Amplify")}</p>
               <h1 className="text-5xl font-bold leading-[1.05] tracking-tight text-primary-foreground md:text-6xl lg:text-7xl">
-                {t("Activate talent,")}<br /><span className="text-[#59029F]">{t("amplify reach")}</span>
+                {t("Activate talent,")}<br /><span className="text-[#DC44CB]">{t("amplify reach")}</span>
               </h1>
               <p className="mt-8 max-w-lg text-lg leading-relaxed text-primary-foreground/60">
                 {t("When a role has limited or no matching clinicians, Amplify cascades it into optimised vacancy campaigns across high-performing external sources — attracting fresh candidates directly into your database.")}
@@ -72,7 +72,7 @@ const Amplify = () => {
             <motion.div initial="hidden" animate="visible" custom={2} variants={fadeUp} className="grid grid-cols-2 gap-6">
               {stats.map((stat, i) => (
                 <motion.div key={stat.label} custom={i + 2} initial="hidden" animate="visible" variants={fadeUp} className="rounded-2xl border border-primary-foreground/10 bg-primary-foreground/5 p-8 backdrop-blur-sm">
-                  <p className="text-4xl font-bold text-[#59029F] md:text-5xl">{stat.value}</p>
+                  <p className="text-4xl font-bold text-[#DC44CB] md:text-5xl">{stat.value}</p>
                   <p className="mt-2 text-sm text-primary-foreground/50">{t(stat.label)}</p>
                 </motion.div>
               ))}
@@ -109,7 +109,7 @@ const Amplify = () => {
           <div className="grid gap-px overflow-hidden rounded-2xl border border-primary-foreground/10 bg-primary-foreground/5 md:grid-cols-2 lg:grid-cols-3">
             {features.map((feature, i) => (
               <motion.div key={feature.title} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={i} variants={fadeUp} className="group border border-primary-foreground/5 bg-foreground p-10 transition-colors hover:bg-primary-foreground/5">
-                <feature.icon className="mb-6 h-8 w-8 text-[#59029F] transition-transform group-hover:scale-110" />
+                <feature.icon className="mb-6 h-8 w-8 text-[#DC44CB] transition-transform group-hover:scale-110" />
                 <h3 className="mb-3 text-xl font-semibold text-primary-foreground">{t(feature.title)}</h3>
                 <p className="text-sm leading-relaxed text-primary-foreground/50">{t(feature.description)}</p>
               </motion.div>
@@ -168,7 +168,7 @@ const Amplify = () => {
         <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: "radial-gradient(circle at 30% 50%, hsl(269 97% 32% / 0.3) 0%, transparent 60%)" }} />
         <div className="relative z-10 mx-auto max-w-4xl px-6 text-center">
           <motion.p initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }} className="text-4xl font-bold leading-tight text-primary-foreground md:text-5xl lg:text-6xl">
-            {t("Convert engagement spend into")} <span className="text-[#59029F]">{t("predictable operational capacity")}</span>.
+            {t("Convert engagement spend into")} <span className="text-[#DC44CB]">{t("predictable operational capacity")}</span>.
           </motion.p>
         </div>
       </section>

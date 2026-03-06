@@ -81,7 +81,7 @@ const PrimaryCare = () => {
             </p>
             <h1 className="text-5xl font-bold leading-[1.08] tracking-tight text-primary-foreground md:text-7xl lg:text-8xl">
               Smarter staffing for{" "}
-              <span className="text-[#59029F]">primary care</span>
+              <span className="text-[#DC44CB]">primary care</span>
             </h1>
             <motion.p
               initial="hidden"
@@ -187,7 +187,7 @@ const PrimaryCare = () => {
             </p>
             <h2 className="mt-4 text-4xl font-bold tracking-tight text-primary-foreground md:text-5xl">
               Flexzo AI puts primary care teams{" "}
-              <span className="text-[#59029F]">in control</span>
+              <span className="text-[#DC44CB]">in control</span>
             </h2>
           </motion.div>
 
@@ -202,7 +202,7 @@ const PrimaryCare = () => {
                 variants={fadeUp}
                 className="group border border-primary-foreground/5 bg-foreground p-10 transition-colors hover:bg-primary-foreground/5"
               >
-                <f.icon className="mb-6 h-8 w-8 text-[#59029F] transition-transform group-hover:scale-110" />
+                <f.icon className="mb-6 h-8 w-8 text-[#DC44CB] transition-transform group-hover:scale-110" />
                 <h3 className="mb-3 text-xl font-semibold text-primary-foreground">
                   {f.title}
                 </h3>
@@ -268,7 +268,7 @@ const PrimaryCare = () => {
           >
             <h2 className="text-4xl font-bold leading-tight text-primary-foreground md:text-5xl lg:text-6xl">
               Ditch the{" "}
-              <span className="text-[#59029F]">Agency Hassle</span>
+              <span className="text-[#DC44CB]">Agency Hassle</span>
             </h2>
             <p className="mt-8 max-w-3xl text-xl leading-relaxed text-primary-foreground/60">
               Tired of juggling multiple agencies, emails, and duplicated admin? Flexzo replaces

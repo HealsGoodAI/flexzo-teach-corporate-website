@@ -46,7 +46,7 @@ const Hospitals = () => {
           <motion.div initial="hidden" animate="visible" variants={fadeUp} className="max-w-4xl">
             <p className="mb-8 text-sm font-semibold uppercase tracking-[0.3em] text-[#0CE3FF]">{t("NHS Hospitals")}</p>
             <h1 className="text-5xl font-bold leading-[1.08] tracking-tight text-primary-foreground md:text-7xl lg:text-8xl">
-              {t("NHS Trust Staffing &")} <span className="text-[#59029F]">{t("Workforce Platform")}</span>
+              {t("NHS Trust Staffing &")} <span className="text-[#DC44CB]">{t("Workforce Platform")}</span>
             </h1>
             <motion.p initial="hidden" animate="visible" custom={1} variants={fadeUp} className="mt-10 max-w-2xl text-xl leading-relaxed text-primary-foreground/60 md:text-2xl">
               Reduce Agency Spend. Fill Shifts Faster. Stay Fully Compliant.
@@ -91,7 +91,7 @@ const Hospitals = () => {
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeUp}>
               <p className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-[#0CE3FF]">Workforce Challenges</p>
               <h2 className="text-3xl font-bold leading-tight tracking-tight text-primary-foreground md:text-5xl">
-                {t("Solve NHS Staffing Shortages")} <span className="text-[#59029F]">{t("Faster")}</span>
+                {t("Solve NHS Staffing Shortages")} <span className="text-[#DC44CB]">{t("Faster")}</span>
               </h2>
               <p className="mt-6 text-lg leading-relaxed text-primary-foreground/60">
                 {t("NHS Trusts are facing ongoing workforce challenges, including rota gaps, recruitment delays, and limited visibility of available staff.")}
@@ -102,7 +102,7 @@ const Hospitals = () => {
               <ul className="space-y-5">
                 {trustBenefits.map((item, i) => (
                   <motion.li key={i} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={i + 2} variants={fadeUp} className="flex items-start gap-4">
-                    <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-[#59029F]" />
+                     <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-[#DC44CB]" />
                     <span className="text-lg text-primary-foreground">{t(item)}</span>
                   </motion.li>
                 ))}
@@ -157,14 +157,14 @@ const Hospitals = () => {
           <div className="grid gap-16 lg:grid-cols-2">
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeUp}>
               <h2 className="text-4xl font-bold leading-tight text-primary-foreground md:text-5xl lg:text-6xl">
-                {t("Why NHS Trusts choose")} <span className="text-[#59029F]">Flexzo.ai</span>
+                {t("Why NHS Trusts choose")} <span className="text-[#DC44CB]">Flexzo.ai</span>
               </h2>
             </motion.div>
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} custom={1} variants={fadeUp}>
               <ul className="space-y-5">
                 {whyChoose.map((item, i) => (
                   <motion.li key={i} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={i + 2} variants={fadeUp} className="flex items-start gap-4">
-                    <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-[#59029F]" />
+                    <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-[#DC44CB]" />
                     <span className="text-lg text-primary-foreground">{t(item)}</span>
                   </motion.li>
                 ))}

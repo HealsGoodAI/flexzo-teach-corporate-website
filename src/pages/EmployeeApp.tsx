@@ -128,7 +128,7 @@ const EmployeeApp = () => {
               <h1 className="text-5xl font-bold leading-[1.05] tracking-tight text-primary-foreground md:text-6xl lg:text-7xl">
                 {t("Shifts, pay &")}
                 <br />
-                <span className="text-[#59029F]">{t("docs in one app")}</span>
+                <span className="text-[#DC44CB]">{t("docs in one app")}</span>
               </h1>
               <p className="mt-8 max-w-lg text-lg leading-relaxed text-primary-foreground/60">
                 {t("A mobile-first companion for clinicians and bank staff that simplifies shift discovery, acceptance and credential management while keeping payroll and compliance at your fingertips.")}
@@ -166,7 +166,7 @@ const EmployeeApp = () => {
                   variants={fadeUp}
                   className="rounded-2xl border border-primary-foreground/10 bg-primary-foreground/5 p-8 backdrop-blur-sm"
                 >
-                  <p className="text-4xl font-bold text-[#59029F] md:text-5xl">{stat.value}</p>
+                  <p className="text-4xl font-bold text-[#DC44CB] md:text-5xl">{stat.value}</p>
                   <p className="mt-2 text-sm text-primary-foreground/50">{t(stat.label)}</p>
                 </motion.div>
               ))}
@@ -253,7 +253,7 @@ const EmployeeApp = () => {
                 variants={fadeUp}
                 className="group border border-primary-foreground/5 bg-foreground p-10 transition-colors hover:bg-primary-foreground/5"
               >
-                <feature.icon className="mb-6 h-8 w-8 text-[#59029F] transition-transform group-hover:scale-110" />
+                <feature.icon className="mb-6 h-8 w-8 text-[#DC44CB] transition-transform group-hover:scale-110" />
                 <h3 className="mb-3 text-xl font-semibold text-primary-foreground">
                   {t(feature.title)}
                 </h3>
@@ -402,7 +402,7 @@ const EmployeeApp = () => {
             className="text-4xl font-bold leading-tight text-primary-foreground md:text-5xl lg:text-6xl"
           >
             {t("Work when you want:")}{" "}
-            <span className="text-[#59029F]">{t("shifts, pay & documents in one app")}</span>.
+            <span className="text-[#DC44CB]">{t("shifts, pay & documents in one app")}</span>.
           </motion.p>
         </div>
       </section>

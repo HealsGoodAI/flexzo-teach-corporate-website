@@ -91,7 +91,7 @@ const PrivateHealthcare = () => {
           <motion.div initial="hidden" animate="visible" variants={fadeUp} className="max-w-4xl">
             <p className="mb-8 text-sm font-semibold uppercase tracking-[0.3em] text-[#0CE3FF]">Private Healthcare</p>
             <h1 className="text-5xl font-bold leading-[1.08] tracking-tight text-primary-foreground md:text-7xl lg:text-8xl">
-              Private{" "}<span className="text-[#59029F]">Hospitals</span>
+              Private{" "}<span className="text-[#DC44CB]">Hospitals</span>
             </h1>
             <motion.p initial="hidden" animate="visible" custom={1} variants={fadeUp} className="mt-10 max-w-2xl text-xl leading-relaxed text-primary-foreground/60 md:text-2xl">
               Reduce Agency Spend. Improve Staffing Control. Keep Services Moving.
@@ -128,14 +128,14 @@ const PrivateHealthcare = () => {
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeUp} className="mb-16 max-w-3xl">
             <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#0CE3FF]">Industry Challenges</p>
             <h2 className="mt-4 text-4xl font-bold tracking-tight text-primary-foreground md:text-5xl">
-              The Challenge Facing{" "}<span className="text-[#59029F]">Private Hospitals</span>
+              The Challenge Facing{" "}<span className="text-[#DC44CB]">Private Hospitals</span>
             </h2>
             <p className="mt-6 text-lg text-primary-foreground/60">Many private providers face the same recurring issues:</p>
           </motion.div>
           <div className="grid gap-px overflow-hidden rounded-2xl border border-primary-foreground/10 bg-primary-foreground/5 md:grid-cols-2">
             {challenges.map((c, i) => (
               <motion.div key={c.title} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={i} variants={fadeUp} className="group border border-primary-foreground/5 bg-foreground p-10 transition-colors hover:bg-primary-foreground/5">
-                <c.icon className="mb-6 h-8 w-8 text-[#59029F] transition-transform group-hover:scale-110" />
+                <c.icon className="mb-6 h-8 w-8 text-[#DC44CB] transition-transform group-hover:scale-110" />
                 <h3 className="mb-3 text-xl font-semibold text-primary-foreground">{c.title}</h3>
                 <p className="text-sm leading-relaxed text-primary-foreground/50">{c.desc}</p>
               </motion.div>
@@ -207,7 +207,7 @@ const PrivateHealthcare = () => {
           <div className="grid gap-16 lg:grid-cols-2">
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeUp}>
               <h2 className="text-4xl font-bold leading-tight text-primary-foreground md:text-5xl lg:text-6xl">
-                Key Benefits for{" "}<span className="text-[#59029F]">Private Hospitals</span>
+                Key Benefits for{" "}<span className="text-[#DC44CB]">Private Hospitals</span>
               </h2>
               <p className="mt-6 text-lg text-primary-foreground/60">Using Flexzo.ai helps private providers achieve:</p>
             </motion.div>
@@ -215,7 +215,7 @@ const PrivateHealthcare = () => {
               <ul className="space-y-5">
                 {keyBenefits.map((item, i) => (
                   <motion.li key={i} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={i + 2} variants={fadeUp} className="flex items-start gap-4">
-                    <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-[#59029F]" />
+                     <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-[#DC44CB]" />
                     <span className="text-lg text-primary-foreground">{item}</span>
                   </motion.li>
                 ))}

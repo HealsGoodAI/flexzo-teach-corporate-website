@@ -308,7 +308,7 @@ const Navbar = ({ transparent = false }: NavbarProps) => {
                       >
                         <button
                           onClick={() => setMobileExpanded(isExpanded ? null : item)}
-                          className="flex w-full items-center justify-between py-3 text-3xl font-bold text-primary-foreground transition-colors hover:text-[#59029F]"
+                          className="flex w-full items-center justify-between py-3 text-3xl font-bold text-primary-foreground transition-colors hover:text-[#DC44CB]"
                         >
                           {item}
                           <ChevronDown
@@ -333,7 +333,7 @@ const Navbar = ({ transparent = false }: NavbarProps) => {
                                     initial={{ opacity: 0, x: 20 }}
                                     animate={{ opacity: 1, x: 0 }}
                                     transition={{ delay: j * 0.04, duration: 0.3 }}
-                                    className="py-2 text-lg text-primary-foreground/50 transition-colors hover:text-[#59029F]"
+                                    className="py-2 text-lg text-primary-foreground/50 transition-colors hover:text-[#DC44CB]"
                                     onClick={() => setMobileOpen(false)}
                                   >
                                     {t(link.label)}
@@ -353,7 +353,7 @@ const Navbar = ({ transparent = false }: NavbarProps) => {
                       initial={{ opacity: 0, x: 40 }}
                       animate={{ opacity: 1, x: 0 }}
                       transition={{ delay: 0.15 + i * 0.06, duration: 0.4, ease: [0.25, 0.46, 0.45, 0.94] }}
-                      className="py-3 text-3xl font-bold text-primary-foreground transition-colors hover:text-[#59029F]"
+                      className="py-3 text-3xl font-bold text-primary-foreground transition-colors hover:text-[#DC44CB]"
                       onClick={() => setMobileOpen(false)}
                     >
                       {item}
