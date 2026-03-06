@@ -31,7 +31,7 @@ const JobDetail = () => {
           <div className="text-center">
             <h1 className="mb-4 text-3xl font-bold text-foreground">Job not found</h1>
             <p className="mb-8 text-muted-foreground">The job listing you're looking for doesn't exist or has been removed.</p>
-            <Link to={regionPath("/jobs")} className="inline-flex items-center gap-2 rounded-md bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-all hover:bg-[#0075FF] hover:text-white">
+            <Link to={regionPath("/jobs")} className="inline-flex items-center gap-2 rounded-md bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-all hover:bg-accent hover:text-white">
               <ArrowLeft size={16} /> {t("Back to Jobs")}
             </Link>
           </div>
