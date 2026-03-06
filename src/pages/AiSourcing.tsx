@@ -141,7 +141,7 @@ const AiSourcing = () => {
               <h1 className="text-5xl font-bold leading-[1.05] tracking-tight text-primary-foreground md:text-6xl lg:text-7xl">
                 Predict tomorrow's
                 <br />
-                <span className="text-[#59029F]">demand today</span>
+                <span className="text-[#DC44CB]">demand today</span>
               </h1>
               <p className="mt-8 max-w-lg text-lg leading-relaxed text-primary-foreground/60">
                 A clinically tuned workforce intelligence engine that combines
