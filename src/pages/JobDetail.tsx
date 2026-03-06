@@ -64,7 +64,7 @@ const JobDetail = () => {
                 </span>
               )}
               <span className="flex items-center gap-1.5">
-                <Briefcase className="h-4 w-4 text-[#0075FF]" /> {job.salary}
+                <Briefcase className="h-4 w-4 text-accent" /> {job.salary}
               </span>
               {job.contractType ? (
                 <span className="flex items-center gap-1.5">
