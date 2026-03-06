@@ -81,7 +81,7 @@ const Pharmacy = () => {
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeUp}>
               <p className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-[#0CE3FF]">{t("Workforce Challenges")}</p>
               <h2 className="text-3xl font-bold leading-tight tracking-tight text-primary-foreground md:text-5xl">
-                {t("Solve Pharmacy Staffing Shortages")} <span className="text-[#59029F]">{t("Faster")}</span>
+                {t("Solve Pharmacy Staffing Shortages")} <span className="text-[#DC44CB]">{t("Faster")}</span>
               </h2>
               <p className="mt-6 text-lg leading-relaxed text-primary-foreground/60">
                 {t("Pharmacies across the UK are facing increasing pressure from staff shortages, rising locum costs, and growing demand for clinical pharmacy services.")}
