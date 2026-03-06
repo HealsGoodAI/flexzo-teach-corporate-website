@@ -802,7 +802,7 @@ const GENERIC_TEMPLATE = `<!DOCTYPE html>
     .header{background:#2C0947;padding:22px 32px}
     .header img{height:26px;width:auto;display:block}
     .content{padding:28px 32px}
-    .greeting{font-size:16px;font-weight:600;color:#063165;margin:0 0 12px}
+    .greeting{font-size:16px;font-weight:600;color:#2C0947;margin:0 0 12px}
     .body-text{font-size:14px;line-height:1.65;color:#374151;margin:0 0 16px}
     .divider{height:1px;background:#E5E7EB;margin:22px 0}
     .cta-section{text-align:center;margin-top:8px}
