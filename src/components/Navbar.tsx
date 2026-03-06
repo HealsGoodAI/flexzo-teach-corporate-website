@@ -333,7 +333,7 @@ const Navbar = ({ transparent = false }: NavbarProps) => {
                                     initial={{ opacity: 0, x: 20 }}
                                     animate={{ opacity: 1, x: 0 }}
                                     transition={{ delay: j * 0.04, duration: 0.3 }}
-                                    className="py-2 text-lg text-primary-foreground/50 transition-colors hover:text-[#59029F]"
+                                    className="py-2 text-lg text-primary-foreground/50 transition-colors hover:text-[#DC44CB]"
                                     onClick={() => setMobileOpen(false)}
                                   >
                                     {t(link.label)}
