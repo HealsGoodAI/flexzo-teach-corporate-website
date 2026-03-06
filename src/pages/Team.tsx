@@ -137,8 +137,8 @@ const Team = () => {
         <div className="relative z-10 mx-auto w-full max-w-7xl px-6 pb-20 pt-40">
           <motion.div initial="hidden" animate="visible" variants={fadeUp}>
             <div className="mb-6 flex items-center gap-3">
-              <Users className="h-5 w-5 text-[#0075FF]" />
-              <p className="text-xs font-semibold uppercase tracking-[0.3em] text-[#0075FF]">
+              <Users className="h-5 w-5 text-[#59029F]" />
+              <p className="text-xs font-semibold uppercase tracking-[0.3em] text-[#59029F]">
                 Our Team
               </p>
             </div>
