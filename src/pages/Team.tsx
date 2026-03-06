@@ -197,10 +197,10 @@ const Team = () => {
                   viewport={{ once: true }}
                   custom={i}
                   variants={fadeUp}
-                  className="group rounded-2xl border border-border bg-background p-8 transition-all hover:border-[#0075FF]/30 hover:shadow-lg hover:shadow-[#0075FF]/5"
+                className="group rounded-2xl border border-border bg-background p-8 transition-all hover:border-[#59029F]/30 hover:shadow-lg hover:shadow-[#59029F]/5"
                 >
-                  <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-xl bg-[#0075FF]/10">
-                    <Icon className="h-6 w-6 text-[#0075FF]" />
+                  <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-xl bg-[#59029F]/10">
+                    <Icon className="h-6 w-6 text-[#59029F]" />
                   </div>
                   <h3 className="mb-3 text-lg font-bold text-foreground">
                     {value.title}
