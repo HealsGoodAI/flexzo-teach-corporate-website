@@ -37,7 +37,7 @@ const PlatformFeatures = () => {
         <div className="relative z-10 mx-auto w-full max-w-7xl px-6 py-32">
           <div className="grid items-center gap-16 lg:grid-cols-2">
             <motion.div initial="hidden" animate="visible" variants={fadeUp}>
-              <p className="mb-6 text-sm font-semibold uppercase tracking-[0.25em] text-[#0CE3FF]">{t("The nation's premium collaborative staff bank")}</p>
+              <p className="mb-6 text-sm font-semibold uppercase tracking-[0.25em] text-[#DC44CB]">{t("The nation's premium collaborative staff bank")}</p>
               <h1 className="text-5xl font-bold leading-[1.05] tracking-tight text-primary-foreground md:text-6xl lg:text-7xl">
                 {t("Platform")} <span className="text-[#59029F]">{t("Features")}</span>
               </h1>
