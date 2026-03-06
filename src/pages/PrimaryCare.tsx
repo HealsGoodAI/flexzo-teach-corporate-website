@@ -81,7 +81,7 @@ const PrimaryCare = () => {
             </p>
             <h1 className="text-5xl font-bold leading-[1.08] tracking-tight text-primary-foreground md:text-7xl lg:text-8xl">
               Smarter staffing for{" "}
-              <span className="text-[#59029F]">primary care</span>
+              <span className="text-[#DC44CB]">primary care</span>
             </h1>
             <motion.p
               initial="hidden"
