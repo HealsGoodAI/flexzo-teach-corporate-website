@@ -75,12 +75,12 @@ const BookDemo = () => {
               </p>
 
               <form onSubmit={handleSubmit} className="space-y-4">
-                <input type="text" name="name" placeholder={t("Your Name *")} required value={form.name} onChange={handleChange} className="w-full rounded-lg border border-border bg-background px-4 py-3.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-[#0075FF]/50" />
-                <input type="email" name="email" placeholder={t("Your Email *")} required value={form.email} onChange={handleChange} className="w-full rounded-lg border border-border bg-background px-4 py-3.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-[#0075FF]/50" />
-                <input type="tel" name="telephone" placeholder={t("Your Telephone *")} required value={form.telephone} onChange={handleChange} className="w-full rounded-lg border border-border bg-background px-4 py-3.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-[#0075FF]/50" />
-                <input type="text" name="organisation" placeholder={t("NHS Trust / Agency *")} required value={form.organisation} onChange={handleChange} className="w-full rounded-lg border border-border bg-background px-4 py-3.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-[#0075FF]/50" />
-                <input type="text" name="date" placeholder={t("Ideal Date for Demo *")} required value={form.date} onChange={handleChange} className="w-full rounded-lg border border-border bg-background px-4 py-3.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-[#0075FF]/50" />
-                <input type="text" name="time" placeholder={t("Ideal Time for Demo *")} required value={form.time} onChange={handleChange} className="w-full rounded-lg border border-border bg-background px-4 py-3.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-[#0075FF]/50" />
+                <input type="text" name="name" placeholder={t("Your Name *")} required value={form.name} onChange={handleChange} className="w-full rounded-lg border border-border bg-background px-4 py-3.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-[#59029F]/50" />
+                <input type="email" name="email" placeholder={t("Your Email *")} required value={form.email} onChange={handleChange} className="w-full rounded-lg border border-border bg-background px-4 py-3.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-[#59029F]/50" />
+                <input type="tel" name="telephone" placeholder={t("Your Telephone *")} required value={form.telephone} onChange={handleChange} className="w-full rounded-lg border border-border bg-background px-4 py-3.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-[#59029F]/50" />
+                <input type="text" name="organisation" placeholder={t("NHS Trust / Agency *")} required value={form.organisation} onChange={handleChange} className="w-full rounded-lg border border-border bg-background px-4 py-3.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-[#59029F]/50" />
+                <input type="text" name="date" placeholder={t("Ideal Date for Demo *")} required value={form.date} onChange={handleChange} className="w-full rounded-lg border border-border bg-background px-4 py-3.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-[#59029F]/50" />
+                <input type="text" name="time" placeholder={t("Ideal Time for Demo *")} required value={form.time} onChange={handleChange} className="w-full rounded-lg border border-border bg-background px-4 py-3.5 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-[#59029F]/50" />
                 {error && <p className="text-sm text-red-500">{error}</p>}
                 {/* Honeypot field — hidden from real users */}
                 <input
@@ -94,7 +94,7 @@ const BookDemo = () => {
                   style={{ position: "absolute", left: "-9999px", opacity: 0, height: 0, width: 0 }}
                 />
                 <ReCaptcha onVerify={setRecaptchaToken} onExpire={() => setRecaptchaToken("")} />
-                <button type="submit" disabled={submitting || !recaptchaToken} className="flex w-full items-center justify-center gap-2 rounded-lg bg-[#0075FF] px-8 py-3.5 text-sm font-medium text-white transition-colors hover:bg-[#0060d0] disabled:opacity-60">
+                <button type="submit" disabled={submitting || !recaptchaToken} className="flex w-full items-center justify-center gap-2 rounded-lg bg-[#59029F] px-8 py-3.5 text-sm font-medium text-white transition-colors hover:bg-[#4a0285] disabled:opacity-60">
                   {submitting ? t("Sending…") : t("Book now")} <Send size={16} />
                 </button>
               </form>
@@ -104,7 +104,7 @@ const BookDemo = () => {
               <div className="overflow-hidden rounded-2xl border border-border bg-muted/50">
                 <img src={bookDemoHero} alt="Healthcare professional" className="h-56 w-full object-cover" />
                 <div className="p-10">
-                <Globe className="mb-6 text-[#0075FF]" size={48} />
+                <Globe className="mb-6 text-[#59029F]" size={48} />
                 <h2 className="mb-4 text-2xl font-bold text-foreground">{t("Access a world of healthcare talent")}</h2>
                 <p className="mb-8 leading-relaxed text-muted-foreground">
                   {t("Flexzo AI connects Hospitals and Healthcare settings to a global network of healthcare professionals. Book a demo to see how our AI-powered platform can transform your staffing.")}
@@ -117,7 +117,7 @@ const BookDemo = () => {
                     "Collaborative staff bank access",
                   ].map((item) => (
                     <div key={item} className="flex items-center gap-3">
-                      <div className="h-2 w-2 rounded-full bg-[#0075FF]" />
+                      <div className="h-2 w-2 rounded-full bg-[#59029F]" />
                       <span className="text-sm text-muted-foreground">{t(item)}</span>
                     </div>
                   ))}

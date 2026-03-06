@@ -45,7 +45,7 @@ const BenefitsSection = () => {
       <div className="mx-auto max-w-7xl px-6">
          <ScrollReveal animation="split" className="mb-16 max-w-2xl">
           <h2 className="font-display text-3xl font-bold tracking-tight text-foreground md:text-4xl">
-            {t("Why teams choose")} <span className="text-[#0075FF]">Flexzo</span>
+            {t("Why teams choose")} <span className="text-[#59029F]">Flexzo</span>
           </h2>
         </ScrollReveal>
 
@@ -59,8 +59,8 @@ const BenefitsSection = () => {
               transition={{ delay: i * 0.1 }}
               className="group flex gap-4 rounded-xl border border-border bg-background p-6 transition-shadow hover:shadow-md"
             >
-              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-[#0075FF]/10">
-                <benefit.icon className="h-5 w-5 text-[#0075FF]" />
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-[#59029F]/10">
+                <benefit.icon className="h-5 w-5 text-[#59029F]" />
               </div>
               <div>
                 <h3 className="mb-2 font-display text-base font-semibold text-foreground">
