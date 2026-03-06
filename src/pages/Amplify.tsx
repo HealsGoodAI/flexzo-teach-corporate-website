@@ -168,7 +168,7 @@ const Amplify = () => {
         <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: "radial-gradient(circle at 30% 50%, hsl(269 97% 32% / 0.3) 0%, transparent 60%)" }} />
         <div className="relative z-10 mx-auto max-w-4xl px-6 text-center">
           <motion.p initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }} className="text-4xl font-bold leading-tight text-primary-foreground md:text-5xl lg:text-6xl">
-            {t("Convert engagement spend into")} <span className="text-[#59029F]">{t("predictable operational capacity")}</span>.
+            {t("Convert engagement spend into")} <span className="text-[#DC44CB]">{t("predictable operational capacity")}</span>.
           </motion.p>
         </div>
       </section>

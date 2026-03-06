@@ -434,7 +434,7 @@ const AiSourcing = () => {
             className="text-4xl font-bold leading-tight text-primary-foreground md:text-5xl lg:text-6xl"
           >
             Flexzo AI turns complex workforce variables into{" "}
-            <span className="text-[#59029F]">actionable, explainable recommendations</span>.
+            <span className="text-[#DC44CB]">actionable, explainable recommendations</span>.
           </motion.p>
         </div>
       </section>
