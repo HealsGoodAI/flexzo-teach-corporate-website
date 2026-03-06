@@ -149,7 +149,7 @@ const JobDetail = () => {
               <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} custom={2} variants={fadeUp}>
                 <Link
                   to={regionPath(`/jobs/${job.id}/apply`)}
-                  className="group flex w-full items-center justify-center gap-2 rounded-md bg-primary px-6 py-4 text-sm font-semibold text-primary-foreground transition-all hover:bg-[#0075FF] hover:text-white"
+                  className="group flex w-full items-center justify-center gap-2 rounded-md bg-primary px-6 py-4 text-sm font-semibold text-primary-foreground transition-all hover:bg-accent hover:text-white"
                 >
                   Apply Now
                   <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
