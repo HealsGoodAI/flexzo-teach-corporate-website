@@ -157,7 +157,7 @@ const Hospitals = () => {
           <div className="grid gap-16 lg:grid-cols-2">
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeUp}>
               <h2 className="text-4xl font-bold leading-tight text-primary-foreground md:text-5xl lg:text-6xl">
-                {t("Why NHS Trusts choose")} <span className="text-[#59029F]">Flexzo.ai</span>
+                {t("Why NHS Trusts choose")} <span className="text-[#DC44CB]">Flexzo.ai</span>
               </h2>
             </motion.div>
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} custom={1} variants={fadeUp}>
