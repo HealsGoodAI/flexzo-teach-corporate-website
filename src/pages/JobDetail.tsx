@@ -49,7 +49,7 @@ const JobDetail = () => {
       <section className="border-b border-border bg-muted pt-32 pb-12">
         <div className="mx-auto max-w-4xl px-6">
           <motion.div initial="hidden" animate="visible" variants={fadeUp}>
-            <Link to={regionPath("/jobs")} className="mb-6 inline-flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-[#0075FF]">
+            <Link to={regionPath("/jobs")} className="mb-6 inline-flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-accent">
               <ArrowLeft size={14} /> {t("Back to all jobs")}
             </Link>
             <h1 className="mb-3 text-3xl font-bold tracking-tight text-foreground md:text-4xl">
