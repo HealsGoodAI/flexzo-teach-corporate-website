@@ -36,7 +36,7 @@ const Investors = () => {
 
       <section className="mx-auto max-w-7xl px-6 py-20">
         <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="mb-6 text-center">
-          <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-[#0075FF]">{t("Investment Round")}</p>
+          <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-[#59029F]">{t("Investment Round")}</p>
           <h2 className="mb-4 text-3xl font-bold text-foreground md:text-4xl">{t("Investment Round Highlights")}</h2>
           <p className="mx-auto max-w-2xl text-muted-foreground">{t("This oversubscribed round is a powerful validation of the impact Flexzo AI is already having — and the scale of the opportunity ahead.")}</p>
         </motion.div>
@@ -44,10 +44,10 @@ const Investors = () => {
           {highlights.map((item, i) => (
             <motion.div key={item.label} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: i * 0.1 }} className="flex flex-col items-center rounded-2xl border border-border bg-white p-8 text-center">
               <div className="flex h-20 items-center justify-center">
-                {item.icon && <item.icon className="text-[#0075FF]" size={40} />}
+                {item.icon && <item.icon className="text-[#59029F]" size={40} />}
                 {item.logo && <img src={item.logo} alt={item.value} className="h-12 object-contain" />}
               </div>
-              <p className="mb-2 mt-4 text-4xl font-bold text-[#0075FF]">{item.value}</p>
+              <p className="mb-2 mt-4 text-4xl font-bold text-[#59029F]">{item.value}</p>
               <p className="mb-1 text-sm font-semibold text-foreground">{t(item.label)}</p>
               <p className="text-sm text-muted-foreground">{t(item.description)}</p>
             </motion.div>
@@ -60,11 +60,11 @@ const Investors = () => {
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
               <img src={fuelLogo} alt="Fuel Ventures" className="mb-5 h-16 object-contain" />
-              <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-[#0075FF]">{t("Fueling the growth of ambitious tech companies")}</p>
+              <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-[#59029F]">{t("Fueling the growth of ambitious tech companies")}</p>
               <h2 className="mb-6 text-3xl font-bold text-foreground">{t("Proudly Backed by Fuel Ventures")}</h2>
               <p className="mb-6 leading-relaxed text-muted-foreground">{t("Flexzo AI is proud to be backed by Fuel Ventures, a leading UK early-stage venture capital firm known for supporting high-growth technology companies. In March 2025, Fuel Ventures led a £1.5 million funding round for our parent company, Healsgood, to accelerate the adoption of Flexzo AI across NHS Trusts nationwide.")}</p>
               <p className="mb-8 leading-relaxed text-muted-foreground">{t("This investment enables us to enhance our AI-driven platform, expand our collaborative staff bank, and further our mission to revolutionise healthcare staffing.")}</p>
-              <a href="https://www.fuel.ventures/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm font-medium text-[#0075FF] hover:underline">
+              <a href="https://www.fuel.ventures/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm font-medium text-[#59029F] hover:underline">
                 {t("Read more about Fuel Ventures")} <ExternalLink size={14} />
               </a>
             </motion.div>
@@ -85,18 +85,17 @@ const Investors = () => {
             <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="order-2 overflow-hidden rounded-2xl border border-border bg-card lg:order-1">
               <img src={octopusTeam} alt="Octopus Ventures team" className="h-56 w-full object-cover" />
               <div className="p-10">
-                
                 <h3 className="mb-3 text-xl font-bold text-foreground">{t("About Octopus Ventures")}</h3>
                 <p className="leading-relaxed text-muted-foreground">{t("Octopus Ventures, part of Octopus Investments, is one of the largest and most active venture capital investors in Europe. Their mission is simple — to invest in the people, ideas and industries that will change the world. They focus on building a more sustainable planet, empowering people and revitalising healthcare.")}</p>
               </div>
             </motion.div>
             <motion.div initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="order-1 lg:order-2">
               <img src={octopusLogo} alt="Octopus Ventures" className="mb-5 h-16 object-contain" />
-              <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-[#0075FF]">{t("Venture capital for the founders building a better tomorrow")}</p>
+              <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-[#59029F]">{t("Venture capital for the founders building a better tomorrow")}</p>
               <h2 className="mb-6 text-3xl font-bold text-foreground">{t("Funded by Octopus Ventures")}</h2>
               <p className="mb-6 leading-relaxed text-muted-foreground">{t("Flexzo AI has secured an investment from Octopus Ventures, one of the largest and most active venture capital investors in Europe. This significant investment will accelerate the growth and adoption of Flexzo AI across NHS Trusts nationwide.")}</p>
               <p className="mb-8 leading-relaxed text-muted-foreground">{t("It empowers us to further enhance our AI-driven platform, expand our collaborative staff bank, and strengthen our mission to transform healthcare staffing. With the support of Octopus Ventures, we are also building the future of healthcare workforce management in the USA.")}</p>
-              <a href="https://octopusventures.com/about/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm font-medium text-[#0075FF] hover:underline">
+              <a href="https://octopusventures.com/about/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-sm font-medium text-[#59029F] hover:underline">
                 {t("Read more about Octopus Ventures")} <ExternalLink size={14} />
               </a>
             </motion.div>
@@ -107,7 +106,7 @@ const Investors = () => {
       <section className="border-t border-border bg-muted/30">
         <div className="mx-auto max-w-7xl px-6 py-20 text-center">
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
-            <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-[#0075FF]">{t("Welcome to Flexzo AI")}</p>
+            <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-[#59029F]">{t("Welcome to Flexzo AI")}</p>
             <h2 className="mb-6 text-3xl font-bold text-foreground md:text-4xl">{t("Supported by AWS & Google Cloud")}</h2>
             <p className="mx-auto mb-10 max-w-3xl leading-relaxed text-muted-foreground">{t("Flexzo AI leverages the robust infrastructure of Google Cloud and Amazon Web Services (AWS) to ensure our platform is secure, scalable, and reliable. These partnerships enable us to process complex data efficiently, provide real-time analytics, and deliver seamless experiences to our users.")}</p>
             <div className="flex items-center justify-center gap-12">
@@ -122,7 +121,7 @@ const Investors = () => {
         <div className="mx-auto max-w-3xl px-6 text-center">
           <h2 className="mb-4 text-3xl font-bold text-primary-foreground md:text-4xl">{t("One platform, endless staffing solutions")}</h2>
           <p className="mb-8 text-primary-foreground/70">{t("Join the UK's largest collaborative staff bank for healthcare providers. With Flexzo AI, you'll have access to locum, short term cover and permanent staff recruitment.")}</p>
-          <RegionLink href="/book-demo" className="inline-flex items-center gap-2 rounded-lg bg-[#0075FF] px-8 py-3.5 text-sm font-medium text-white transition-colors hover:bg-[#0060d0]">
+          <RegionLink href="/book-demo" className="inline-flex items-center gap-2 rounded-lg bg-[#59029F] px-8 py-3.5 text-sm font-medium text-white transition-colors hover:bg-[#4a0285]">
             {t("Book a Demo")} <ArrowRight size={16} />
           </RegionLink>
         </div>

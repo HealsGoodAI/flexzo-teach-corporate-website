@@ -30,7 +30,7 @@ const whyChoose = [
 ];
 
 const BookDemoButton = ({ t }: { t: (s: string) => string }) => (
-  <RegionLink href="/book-demo" className="group inline-flex items-center gap-2 rounded-md bg-[#0075FF] px-8 py-4 text-sm font-semibold text-white transition-all hover:bg-[#0060D0]">
+  <RegionLink href="/book-demo" className="group inline-flex items-center gap-2 rounded-md bg-[#59029F] px-8 py-4 text-sm font-semibold text-white transition-all hover:bg-[#4a0285]">
     {t("Book a Demo")} <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
   </RegionLink>
 );
@@ -49,7 +49,7 @@ const Pharmacy = () => {
           <motion.div initial="hidden" animate="visible" variants={fadeUp} className="max-w-4xl">
             <p className="mb-8 text-sm font-semibold uppercase tracking-[0.3em] text-[#0CE3FF]">{t("Pharmacy")}</p>
             <h1 className="text-5xl font-bold leading-[1.08] tracking-tight text-primary-foreground md:text-7xl lg:text-8xl">
-              {t("Smarter Locum Cover for")} <span className="text-[#0075FF]">{t("UK Pharmacies")}</span>
+              {t("Smarter Locum Cover for")} <span className="text-[#59029F]">{t("UK Pharmacies")}</span>
             </h1>
             <motion.p initial="hidden" animate="visible" custom={1} variants={fadeUp} className="mt-10 max-w-2xl text-xl leading-relaxed text-primary-foreground/60 md:text-2xl">
               {t("Flexzo.ai is an AI-powered pharmacy staffing platform designed to help UK pharmacies reduce staffing gaps, improve workforce planning, and cut reliance on expensive agencies.")}
@@ -66,7 +66,7 @@ const Pharmacy = () => {
         <div className="mx-auto max-w-7xl px-6">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeUp} className="max-w-5xl">
             <h2 className="text-4xl font-bold leading-[1.15] tracking-tight text-foreground md:text-6xl lg:text-7xl">
-              {t("Pharmacy Staffing &")} <span className="text-[#0075FF]">{t("Recruitment Platform")}</span>
+              {t("Pharmacy Staffing &")} <span className="text-[#59029F]">{t("Recruitment Platform")}</span>
             </h2>
             <p className="mt-8 max-w-3xl text-xl leading-relaxed text-muted-foreground md:text-2xl">
               {t("Whether you need urgent locum pharmacist cover, support for service delivery, or long-term recruitment solutions, Flexzo.ai connects pharmacies with compliant professionals quickly and efficiently.")}
@@ -81,7 +81,7 @@ const Pharmacy = () => {
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeUp}>
               <p className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-[#0CE3FF]">{t("Workforce Challenges")}</p>
               <h2 className="text-3xl font-bold leading-tight tracking-tight text-primary-foreground md:text-5xl">
-                {t("Solve Pharmacy Staffing Shortages")} <span className="text-[#0075FF]">{t("Faster")}</span>
+                {t("Solve Pharmacy Staffing Shortages")} <span className="text-[#59029F]">{t("Faster")}</span>
               </h2>
               <p className="mt-6 text-lg leading-relaxed text-primary-foreground/60">
                 {t("Pharmacies across the UK are facing increasing pressure from staff shortages, rising locum costs, and growing demand for clinical pharmacy services.")}
@@ -92,7 +92,7 @@ const Pharmacy = () => {
               <ul className="space-y-5">
                 {helpsList.map((item, i) => (
                   <motion.li key={i} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={i + 2} variants={fadeUp} className="flex items-start gap-4">
-                    <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-[#0075FF]" />
+                    <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-[#59029F]" />
                     <span className="text-lg text-primary-foreground">{t(item)}</span>
                   </motion.li>
                 ))}
@@ -110,8 +110,8 @@ const Pharmacy = () => {
               { icon: TrendingDown, title: "Reduce Locum and Agency Costs", desc: "Agency mark-ups continue to drive up the cost of pharmacy recruitment. Flexzo.ai offers a transparent subscription-based model, helping pharmacies reduce unnecessary fees and gain more control over staffing spend." },
               { icon: Shield, title: "Compliance-Ready Pharmacy Professionals", desc: "Flexzo.ai supports safer recruitment by providing access to professionals who are pre-vetted and compliance-ready, helping pharmacies stay audit-ready while reducing administrative workload." },
             ].map((f, i) => (
-              <motion.div key={f.title} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} custom={i} variants={fadeUp} className="group rounded-2xl border border-border bg-background p-12 transition-all hover:border-[#0075FF]/20 hover:shadow-lg">
-                <f.icon className="mb-6 h-10 w-10 text-[#0075FF]" />
+              <motion.div key={f.title} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} custom={i} variants={fadeUp} className="group rounded-2xl border border-border bg-background p-12 transition-all hover:border-[#59029F]/20 hover:shadow-lg">
+                <f.icon className="mb-6 h-10 w-10 text-[#59029F]" />
                 <h3 className="mb-4 text-xl font-bold text-foreground">{t(f.title)}</h3>
                 <p className="text-sm leading-relaxed text-muted-foreground">{t(f.desc)}</p>
               </motion.div>
@@ -121,19 +121,19 @@ const Pharmacy = () => {
       </section>
 
       <section className="relative bg-foreground py-32 lg:py-40">
-        <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: "radial-gradient(circle at 30% 50%, hsl(210 100% 45% / 0.3) 0%, transparent 60%)" }} />
+        <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: "radial-gradient(circle at 30% 50%, hsl(269 97% 32% / 0.3) 0%, transparent 60%)" }} />
         <div className="relative z-10 mx-auto max-w-7xl px-6">
           <div className="grid gap-16 lg:grid-cols-2">
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeUp}>
               <h2 className="text-4xl font-bold leading-tight text-primary-foreground md:text-5xl lg:text-6xl">
-                {t("Why Pharmacies choose")} <span className="text-[#0075FF]">Flexzo.ai</span>
+                {t("Why Pharmacies choose")} <span className="text-[#59029F]">Flexzo.ai</span>
               </h2>
             </motion.div>
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} custom={1} variants={fadeUp}>
               <ul className="space-y-5">
                 {whyChoose.map((item, i) => (
                   <motion.li key={i} initial="hidden" whileInView="visible" viewport={{ once: true }} custom={i + 2} variants={fadeUp} className="flex items-start gap-4">
-                    <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-[#0075FF]" />
+                    <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-[#59029F]" />
                     <span className="text-lg text-primary-foreground">{t(item)}</span>
                   </motion.li>
                 ))}
@@ -146,8 +146,8 @@ const Pharmacy = () => {
       <section className="py-28 lg:py-36">
         <div className="mx-auto max-w-4xl px-6 text-center">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}>
-            <Sparkles className="mx-auto mb-6 h-10 w-10 text-[#0075FF]" />
-            <h2 className="text-4xl font-bold tracking-tight text-foreground md:text-5xl">{t("Book a")} <span className="text-[#0075FF]">{t("Demo")}</span></h2>
+            <Sparkles className="mx-auto mb-6 h-10 w-10 text-[#59029F]" />
+            <h2 className="text-4xl font-bold tracking-tight text-foreground md:text-5xl">{t("Book a")} <span className="text-[#59029F]">{t("Demo")}</span></h2>
             <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground">
               {t("Looking for a smarter way to manage pharmacy staffing and recruitment? Book a demo today and discover how Flexzo.ai can help your pharmacy reduce rota gaps, lower agency spend, and improve operational efficiency.")}
             </p>

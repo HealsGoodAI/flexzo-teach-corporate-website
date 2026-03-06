@@ -40,7 +40,7 @@ const About = () => {
           <p className="max-w-2xl text-lg leading-relaxed text-primary-foreground/70">
             {t("At Flexzo AI, we're redefining healthcare recruitment through intelligent, AI-powered solutions that connect NHS Trusts directly with compliance-ready healthcare professionals – without the hassle of traditional agencies.")}
           </p>
-          <RegionLink href="/contact" className="mt-8 inline-block rounded-md bg-[#0075FF] px-8 py-3.5 text-sm font-semibold text-white transition-all hover:bg-[#0060D0]">
+          <RegionLink href="/contact" className="mt-8 inline-block rounded-md bg-[#59029F] px-8 py-3.5 text-sm font-semibold text-white transition-all hover:bg-[#4a0285]">
             {t("Contact Us")}
           </RegionLink>
         </div>
@@ -51,7 +51,7 @@ const About = () => {
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="overflow-hidden rounded-2xl border border-border bg-card">
             <img src={aboutVision} alt="Team collaboration" className="h-48 w-full object-cover" />
             <div className="p-10">
-              <Eye className="mb-4 text-[#0075FF]" size={36} />
+              <Eye className="mb-4 text-[#59029F]" size={36} />
               <h2 className="mb-4 text-2xl font-bold text-foreground">{t("Our Vision")}</h2>
               <p className="leading-relaxed text-muted-foreground">
                 {t("Our vision is to become the UK's leading collaborative staff bank, empowering healthcare professionals and NHS Trusts to connect directly through a fair, transparent, and efficient platform. We aim to eliminate unnecessary agency fees, reduce recruitment times, and ensure seamless compliance – improving patient care while cutting costs for healthcare providers.")}
@@ -100,7 +100,7 @@ const About = () => {
       <section className="border-t border-border">
         <div className="mx-auto max-w-7xl px-6 py-20 text-center">
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
-            <Globe className="mx-auto mb-4 text-[#0075FF]" size={40} />
+            <Globe className="mx-auto mb-4 text-[#59029F]" size={40} />
             <h2 className="mb-4 text-3xl font-bold text-foreground md:text-4xl">
               {t("Access a world of healthcare talent")}
             </h2>
