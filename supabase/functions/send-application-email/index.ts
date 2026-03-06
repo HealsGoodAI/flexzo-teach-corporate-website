@@ -591,7 +591,7 @@ const APPLICANT_US_TEMPLATE = `<!DOCTYPE html>
     .content{padding:28px 32px}
     .greeting{font-size:16px;font-weight:600;color:#2C0947;margin:0 0 12px}
     .body-text{font-size:14px;line-height:1.65;color:#374151;margin:0 0 16px}
-    .job-card{background:#F9FAFB;border:1px solid #E5E7EB;border-left:4px solid #0075FF;border-radius:8px;padding:14px 18px;margin:20px 0}
+    .job-card{background:#F9FAFB;border:1px solid #E5E7EB;border-left:4px solid #59029F;border-radius:8px;padding:14px 18px;margin:20px 0}
     .job-card-label{font-size:10px;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#9CA3AF;margin:0 0 4px}
     .job-card-title{font-size:15px;font-weight:700;color:#063165;margin:0}
     .steps{margin:24px 0}
