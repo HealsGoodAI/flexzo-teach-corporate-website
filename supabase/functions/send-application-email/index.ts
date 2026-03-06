@@ -584,7 +584,7 @@ const APPLICANT_US_TEMPLATE = `<!DOCTYPE html>
     .card{width:92%;max-width:600px;margin:0 auto;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 4px 24px rgba(0,0,0,.08)}
     .header{background:#2C0947;padding:22px 32px}
     .header img{height:26px;width:auto;display:block}
-    .hero{background:linear-gradient(135deg,#0075FF 0%,#063165 100%);padding:36px 32px 32px;text-align:center}
+    .hero{background:linear-gradient(135deg,#59029F 0%,#2C0947 100%);padding:36px 32px 32px;text-align:center}
     .check-circle{width:56px;height:56px;background:rgba(255,255,255,0.15);border-radius:50%;display:inline-flex;align-items:center;justify-content:center;margin-bottom:14px}
     .hero-title{font-size:22px;font-weight:700;color:#fff;margin:0 0 6px;line-height:1.3}
     .hero-sub{font-size:14px;color:rgba(255,255,255,0.75);margin:0;line-height:1.5}
