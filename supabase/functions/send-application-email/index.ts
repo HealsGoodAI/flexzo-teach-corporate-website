@@ -431,7 +431,7 @@ const LEAD_TEMPLATE = `<!DOCTYPE html>
     .job-chip{display:inline-block;background:#EFF6FF;color:#59029F;border:1px solid #BFDBFE;border-radius:6px;padding:6px 12px;font-size:13px;font-weight:600;margin-bottom:20px}
     .cv-box{display:flex;align-items:center;gap:12px;background:#F9FAFB;border:1px solid #E5E7EB;border-radius:8px;padding:12px 16px;margin-top:4px}
     .cv-icon{width:32px;height:32px;border-radius:6px;background:#EFF6FF;display:flex;align-items:center;justify-content:center;flex-shrink:0}
-    .cv-name{font-size:13px;font-weight:600;color:#063165}
+    .cv-name{font-size:13px;font-weight:600;color:#2C0947}
     .cv-sub{font-size:11px;color:#9CA3AF;margin-top:1px}
     .cta-row{margin-top:24px}
     .cta-btn{display:inline-block;background:#0075FF;color:#fff;text-decoration:none;font-size:13px;font-weight:700;padding:11px 22px;border-radius:7px}
