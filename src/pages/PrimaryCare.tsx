@@ -76,7 +76,7 @@ const PrimaryCare = () => {
 
         <div className="relative z-10 mx-auto w-full max-w-7xl px-6 py-40">
           <motion.div initial="hidden" animate="visible" variants={fadeUp} className="max-w-4xl">
-            <p className="mb-8 text-sm font-semibold uppercase tracking-[0.3em] text-[#0CE3FF]">
+             <p className="mb-8 text-sm font-semibold uppercase tracking-[0.3em] text-[#DC44CB]">
               Primary Care
             </p>
             <h1 className="text-5xl font-bold leading-[1.08] tracking-tight text-primary-foreground md:text-7xl lg:text-8xl">
