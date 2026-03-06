@@ -89,7 +89,7 @@ const PrivateHealthcare = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-foreground/40 via-foreground/70 to-foreground" />
         <div className="relative z-10 mx-auto w-full max-w-7xl px-6 py-40">
           <motion.div initial="hidden" animate="visible" variants={fadeUp} className="max-w-4xl">
-            <p className="mb-8 text-sm font-semibold uppercase tracking-[0.3em] text-[#0CE3FF]">Private Healthcare</p>
+            <p className="mb-8 text-sm font-semibold uppercase tracking-[0.3em] text-[#DC44CB]">Private Healthcare</p>
             <h1 className="text-5xl font-bold leading-[1.08] tracking-tight text-primary-foreground md:text-7xl lg:text-8xl">
               Private{" "}<span className="text-[#DC44CB]">Hospitals</span>
             </h1>
@@ -126,7 +126,7 @@ const PrivateHealthcare = () => {
       <section className="bg-foreground py-28 lg:py-36">
         <div className="mx-auto max-w-7xl px-6">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeUp} className="mb-16 max-w-3xl">
-            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#0CE3FF]">Industry Challenges</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#DC44CB]">Industry Challenges</p>
             <h2 className="mt-4 text-4xl font-bold tracking-tight text-primary-foreground md:text-5xl">
               The Challenge Facing{" "}<span className="text-[#DC44CB]">Private Hospitals</span>
             </h2>

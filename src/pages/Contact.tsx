@@ -71,7 +71,7 @@ const Contact = () => {
 
       <section className="relative overflow-hidden bg-foreground pt-32 pb-20">
         <div className="mx-auto max-w-7xl px-6 text-center">
-          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-[#0CE3FF]">{t("Get in touch")}</p>
+          <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-[#DC44CB]">{t("Get in touch")}</p>
           <h1 className="mx-auto max-w-3xl text-4xl font-bold leading-tight text-primary-foreground md:text-5xl">{t("Contact")}</h1>
           <p className="mx-auto mt-5 max-w-2xl text-lg text-primary-foreground/70">
             {t("We're here to help you transform healthcare staffing. If you're an NHS Trust looking for smarter recruitment solutions, our team is ready to assist.")}

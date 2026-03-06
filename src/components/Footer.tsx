@@ -175,7 +175,7 @@ const Footer = () => {
 
         {/* Bottom bar */}
         <div className="mt-16 flex items-center gap-4">
-          <div className="h-8 w-8 rounded-full bg-[#0CE3FF]" />
+          <div className="h-8 w-8 rounded-full bg-[#DC44CB]" />
           <p className="text-xs text-primary-foreground/50">
             © {new Date().getFullYear()} Flexzo. All right reserved.
           </p>

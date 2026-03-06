@@ -55,7 +55,7 @@ const Amplify = () => {
         <div className="relative z-10 mx-auto w-full max-w-7xl px-6 py-32">
           <div className="grid items-center gap-16 lg:grid-cols-2">
             <motion.div initial="hidden" animate="visible" variants={fadeUp}>
-              <p className="mb-6 text-sm font-semibold uppercase tracking-[0.25em] text-[#0CE3FF]">{t("Amplify")}</p>
+              <p className="mb-6 text-sm font-semibold uppercase tracking-[0.25em] text-[#DC44CB]">{t("Amplify")}</p>
               <h1 className="text-5xl font-bold leading-[1.05] tracking-tight text-primary-foreground md:text-6xl lg:text-7xl">
                 {t("Activate talent,")}<br /><span className="text-[#DC44CB]">{t("amplify reach")}</span>
               </h1>
@@ -103,7 +103,7 @@ const Amplify = () => {
       <section className="bg-foreground py-28 lg:py-36">
         <div className="mx-auto max-w-7xl px-6">
           <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeUp} className="mb-16">
-            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#0CE3FF]">{t("Capabilities")}</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-[#DC44CB]">{t("Capabilities")}</p>
             <h2 className="mt-4 text-4xl font-bold tracking-tight text-primary-foreground md:text-5xl">{t("Features")}</h2>
           </motion.div>
           <div className="grid gap-px overflow-hidden rounded-2xl border border-primary-foreground/10 bg-primary-foreground/5 md:grid-cols-2 lg:grid-cols-3">

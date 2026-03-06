@@ -31,9 +31,9 @@ const About = () => {
 
       <section className="relative overflow-hidden bg-gradient-to-br from-foreground via-foreground to-[#0a2540] pt-32 pb-20">
         <div className="mx-auto max-w-7xl px-6">
-          <p className="mb-3 text-xs font-semibold uppercase tracking-widest text-[#0CE3FF]">
-            {t("The nation's premium collaborative staff bank")}
-          </p>
+           <p className="mb-3 text-xs font-semibold uppercase tracking-widest text-[#DC44CB]">
+             {t("The nation's premium collaborative staff bank")}
+           </p>
           <h1 className="mb-6 text-4xl font-bold text-primary-foreground md:text-5xl lg:text-6xl">
             {t("About Flexzo")}
           </h1>
@@ -61,7 +61,7 @@ const About = () => {
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.1 }} className="overflow-hidden rounded-2xl border border-border bg-card">
             <img src={aboutMission} alt="Healthcare professional" className="h-48 w-full object-cover" />
             <div className="p-10">
-              <Target className="mb-4 text-[#0CE3FF]" size={36} />
+              <Target className="mb-4 text-[#DC44CB]" size={36} />
               <h2 className="mb-4 text-2xl font-bold text-foreground">{t("Our Mission")}</h2>
               <p className="leading-relaxed text-muted-foreground">
                 {t("At Flexzo AI, our mission is to revolutionise healthcare staffing by providing an innovative, AI-powered platform that connects NHS Trusts directly with a nationwide pool of compliance-ready healthcare professionals. We aim to eliminate the inefficiencies of traditional recruitment processes, reduce costs by cutting out agency fees, and streamline compliance management.")}

@@ -47,7 +47,7 @@ const Pharmacy = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-foreground/40 via-foreground/70 to-foreground" />
         <div className="relative z-10 mx-auto w-full max-w-7xl px-6 py-40">
           <motion.div initial="hidden" animate="visible" variants={fadeUp} className="max-w-4xl">
-            <p className="mb-8 text-sm font-semibold uppercase tracking-[0.3em] text-[#0CE3FF]">{t("Pharmacy")}</p>
+            <p className="mb-8 text-sm font-semibold uppercase tracking-[0.3em] text-[#DC44CB]">{t("Pharmacy")}</p>
             <h1 className="text-5xl font-bold leading-[1.08] tracking-tight text-primary-foreground md:text-7xl lg:text-8xl">
               {t("Smarter Locum Cover for")} <span className="text-[#DC44CB]">{t("UK Pharmacies")}</span>
             </h1>
@@ -79,7 +79,7 @@ const Pharmacy = () => {
         <div className="mx-auto max-w-7xl px-6">
           <div className="grid gap-16 lg:grid-cols-2">
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeUp}>
-              <p className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-[#0CE3FF]">{t("Workforce Challenges")}</p>
+              <p className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-[#DC44CB]">{t("Workforce Challenges")}</p>
               <h2 className="text-3xl font-bold leading-tight tracking-tight text-primary-foreground md:text-5xl">
                 {t("Solve Pharmacy Staffing Shortages")} <span className="text-[#DC44CB]">{t("Faster")}</span>
               </h2>

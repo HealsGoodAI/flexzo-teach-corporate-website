@@ -135,7 +135,7 @@ const AiSourcing = () => {
               animate="visible"
               variants={fadeUp}
             >
-              <p className="mb-6 text-sm font-semibold uppercase tracking-[0.25em] text-[#0CE3FF]">
+              <p className="mb-6 text-sm font-semibold uppercase tracking-[0.25em] text-[#DC44CB]">
                 AI Sourcing
               </p>
               <h1 className="text-5xl font-bold leading-[1.05] tracking-tight text-primary-foreground md:text-6xl lg:text-7xl">
