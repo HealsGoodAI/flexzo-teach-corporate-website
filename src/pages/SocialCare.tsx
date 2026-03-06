@@ -87,7 +87,7 @@ const SocialCare = () => {
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeUp}>
               <p className="mb-4 text-sm font-semibold uppercase tracking-[0.25em] text-[#0CE3FF]">{t("The Real Problems")}</p>
               <h2 className="text-3xl font-bold leading-tight tracking-tight text-primary-foreground md:text-5xl">
-                {t("What We Actually Fix in")} <span className="text-[#59029F]">{t("Care Homes")}</span>
+                {t("What We Actually Fix in")} <span className="text-[#DC44CB]">{t("Care Homes")}</span>
               </h2>
               <p className="mt-6 text-lg leading-relaxed text-primary-foreground/60">
                 {t("The result is more pressure on managers, higher costs, and less time for residents.")}
