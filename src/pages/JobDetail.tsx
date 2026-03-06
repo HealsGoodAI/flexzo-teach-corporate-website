@@ -77,7 +77,7 @@ const JobDetail = () => {
               ) : null}
               {job.band && (
                 <span className="flex items-center gap-1.5">
-                  <Tag className="h-4 w-4 text-[#0075FF]" /> {job.band}
+                  <Tag className="h-4 w-4 text-accent" /> {job.band}
                 </span>
               )}
             </div>
