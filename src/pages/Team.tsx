@@ -113,11 +113,11 @@ const teamMembers: TeamMember[] = [
 ];
 
 const avatarColors = [
-  "bg-[#0075FF]",
+  "bg-[#59029F]",
   "bg-[#0CE3FF]/80",
-  "bg-[#0075FF]/70",
+  "bg-[#59029F]/70",
   "bg-[#0CE3FF]/60",
-  "bg-[#0075FF]/60",
+  "bg-[#59029F]/60",
   "bg-[#0CE3FF]/70",
 ];
 
